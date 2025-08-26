@@ -801,6 +801,5 @@ _For details, refer to **Installation Setup Guide.md**._
 * Sungkyun Choi (1.0.0)
 
 ### Acknowledgments
-This project makes use of [AutoFP](https://github.com/xpclove/autofp), an open-source tool for automated Rietveld refinement.  
-We thank the authors for providing their implementation, which inspired and supported our work.
+This project makes use of [AutoFP](https://github.com/xpclove/autofp), an open-source tool for automated Rietveld refinement, and the [FullProf Suite](https://www.ill.eu/sites/fullprof/), which serves as the Rietveld refinement engine interfaced by RAPID. We thank the authors for providing their implementation, which inspired and supported our work.
 
