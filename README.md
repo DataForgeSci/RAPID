@@ -797,7 +797,7 @@ _For details, refer to **Installation Setup Guide.md**._
 
   
 ## 11. License
-RAPID is open‑source software distributed under the GNU General Public License version 3 (GPLv3) licence. It is free to use, modify and redistribute under the terms of the GPLv3.
+RAPID is open‑source software distributed under the GNU General Public License version 3 (GPLv3) license. It is free to use, modify and redistribute under the terms of the GPLv3.
 
  
 ## 12. Credits
