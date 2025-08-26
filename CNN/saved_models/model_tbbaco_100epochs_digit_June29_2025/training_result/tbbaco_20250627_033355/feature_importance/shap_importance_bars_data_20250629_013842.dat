@@ -1,0 +1,17 @@
+# SHAP Bar Chart Importance Data
+# Generated: 2025-06-29 01:41:18
+
+# Parameter,Mean_Absolute_SHAP_Value
+Zero,0.001229
+Lattice b,0.000997
+Scale,0.000970
+Lattice a,0.000643
+Biso ba,0.000582
+Biso o1,0.000582
+Biso tb,0.000582
+Biso co,0.000581
+Biso o2,0.000581
+V,0.000465
+U,0.000456
+W,0.000283
+Lattice c,0.000198

@@ -1,0 +1,12 @@
+model name: model_CeO2_111
+used base model: None
+training data path: data\train_data\CeO2_20250511_111201\CeO2_simulated_data_row_param.dat
+omit background parameter: True
+digit-based parameter scaling: True
+adaptive reference-based scaling: False
+crystal structure: cubic (1 lattice parameter)
+total parameters: 8
+Biso parameters: 2
+start time: 20250513_103210
+time finished: 20250513_103815
+

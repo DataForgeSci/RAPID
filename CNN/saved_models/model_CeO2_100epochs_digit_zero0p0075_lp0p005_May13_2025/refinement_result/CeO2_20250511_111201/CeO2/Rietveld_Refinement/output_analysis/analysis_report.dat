@@ -1,0 +1,36 @@
+# Rietveld Refinement Analysis Report
+# Generated: 2025-05-13_10-38-43
+# Crystal Structure: cubic
+
+# Space Group: F m -3 m            
+ -
+
+# Explanation:
+#   RefinementType: CNN ML or Solution refinement
+#   Rp(%)         : Conventional Rietveld Rp in percent (Bragg-Only)
+#   Rwp(%)        : Conventional Rietveld Rwp in percent (Bragg-Only)
+#   Re(%)         : Expected Rwp in percent (Bragg-Only)
+#   Chi²          : Goodness of fit (Rwp/Re)² (Bragg-Only)
+#   ZeroShift     : final zero shift (degrees)
+#   Background    : first background coefficient
+#   Biso_Ce      : isotropic displacement parameter for Ce
+#   Biso_O      : isotropic displacement parameter for O
+#   Scale         : final scale factor
+#   a             : cubic lattice parameter (Å)
+#   U, V, W       : final peak shape parameters
+#   Status        : parse result from .out (OK, NO_OUT, etc.)
+#   FirstBragg    : first bragg peak 2theta from .prf
+
+# IMPORTANT: All R-factors (Rp, Rwp, Re, Chi²) are from 'Points with Bragg Contributions' section:
+#   * These values are calculated only over the data points overlapping actual Bragg peaks
+#   * Conventional Rietveld Rp: Basic ratio of total absolute difference to total intensity
+#   * Rwp: Weighted difference ratio, typically your main index
+#   * Re: Ideal Rwp if only noise remains
+#   * Chi²: (Rwp/Re)², checking if you match the data within random error
+
+# NOTE: Background parameter was omitted from CNN training/prediction
+#       Background values for CNN results are taken from original PCR files
+
+# RefinementType        Rp(%)      Rwp(%)     Re(%)      Chi²      ZeroShift     Background    Biso_Ce     Biso_O      Scale      a          U        V        W     FirstBragg   Status
+CNN_ML                  12.700    17.300     4.120    17.560     -0.01888     34.33100   0.03968   0.85527    0.000667    5.411551   0.02173  -0.03995   0.01982    28.52680  OK
+Solution                12.600    16.700     4.100    16.470     -0.01850     34.33100   0.03938   0.84886    0.000644    5.411427   0.02155  -0.03966   0.01966    28.52790  OK

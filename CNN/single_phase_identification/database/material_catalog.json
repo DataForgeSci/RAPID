@@ -1,0 +1,78 @@
+{
+  "CeO2": {
+    "model_path": "saved_models\\model_CeO2_100epochs_digit_zero0p0075_lp0p005_May13_2025\\model_CeO2_111.pth",
+    "model_folder": "model_CeO2_100epochs_digit_zero0p0075_lp0p005_May13_2025",
+    "crystal_system": "cubic",
+    "scaling_factors": [
+      100.0,
+      1.0,
+      100.0,
+      10.0,
+      10000.0,
+      100.0,
+      100.0,
+      100.0
+    ],
+    "parameter_count": 9,
+    "omit_background": true,
+    "lattice_count": 1,
+    "biso_count": 1,
+    "pcr_template": "saved_models\\model_CeO2_100epochs_digit_zero0p0075_lp0p005_May13_2025\\refinement_result\\CeO2_20250511_111201\\CeO2\\Rietveld_Refinement\\solution_refinement\\CeO2.pcr",
+    "fingerprint_path": "single_phase_identification\\database\\fingerprints\\CeO2_fingerprint.json",
+    "visualization_path": "single_phase_identification\\database\\fingerprints\\visualizations\\CeO2_fingerprint.pdf"
+  },
+  "pbso4": {
+    "model_path": "saved_models\\model_pbso4_100epochs_digit_finetune_zero0p05_May07_2025\\model_pbso4_64.pth",
+    "model_folder": "model_pbso4_100epochs_digit_finetune_zero0p05_May07_2025",
+    "crystal_system": "cubic",
+    "scaling_factors": [
+      100.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      10.0,
+      1.0,
+      10.0,
+      10.0,
+      10.0
+    ],
+    "parameter_count": 14,
+    "omit_background": true,
+    "lattice_count": 1,
+    "biso_count": 1,
+    "pcr_template": "saved_models\\model_pbso4_100epochs_digit_finetune_zero0p05_May07_2025\\refinement_result\\pbso4_20250504_214555\\pbso4\\Rietveld_Refinement\\solution_refinement\\pbso4.pcr",
+    "fingerprint_path": "single_phase_identification\\database\\fingerprints\\pbso4_fingerprint.json",
+    "visualization_path": "single_phase_identification\\database\\fingerprints\\visualizations\\pbso4_fingerprint.pdf"
+  },
+  "tbbaco": {
+    "model_path": "saved_models\\model_tbbaco_100epochs_digit_June29_2025\\model_tbbaco_10K_185.pth",
+    "model_folder": "model_tbbaco_100epochs_digit_June29_2025",
+    "crystal_system": "cubic",
+    "scaling_factors": [
+      100.0,
+      1.0,
+      1.0,
+      0.10000000149011612,
+      100.0,
+      100.0,
+      100.0,
+      100.0,
+      100.0,
+      10000.0,
+      100.0,
+      100.0,
+      100.0
+    ],
+    "parameter_count": 14,
+    "omit_background": true,
+    "lattice_count": 1,
+    "biso_count": 1,
+    "pcr_template": "saved_models\\model_tbbaco_100epochs_digit_June29_2025\\refinement_result\\tbbaco_20250627_033355\\tbbaco\\Rietveld_Refinement\\solution_refinement\\tbbaco.pcr",
+    "fingerprint_path": "single_phase_identification\\database\\fingerprints\\tbbaco_fingerprint.json",
+    "visualization_path": "single_phase_identification\\database\\fingerprints\\visualizations\\tbbaco_fingerprint.pdf"
+  }
+}

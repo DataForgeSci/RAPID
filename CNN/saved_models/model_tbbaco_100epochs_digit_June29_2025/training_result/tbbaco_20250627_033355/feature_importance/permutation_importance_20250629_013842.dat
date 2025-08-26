@@ -1,0 +1,17 @@
+# Permutation Importance Analysis Results
+# Generated: 2025-06-29 01:38:56
+
+# Parameter Name    Importance Score
+Zero             0.072420
+V                0.000054
+U                0.000036
+Biso ba          0.000019
+Lattice a        0.000001
+Lattice c        0.000001
+Biso o1          -0.000012
+Lattice b        -0.000014
+W                -0.000030
+Biso tb          -0.000043
+Biso o2          -0.000045
+Biso co          -0.000075
+Scale            -0.000083

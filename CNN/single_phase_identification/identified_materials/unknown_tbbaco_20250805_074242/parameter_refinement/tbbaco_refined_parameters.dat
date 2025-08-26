@@ -1,0 +1,18 @@
+Zero         =    -0.020920
+Lattice a    =     3.755761
+Lattice b    =     5.823482
+Lattice c    =    11.550838
+Biso ba      =     0.030453
+Biso co      =     0.030453
+Biso o1      =     0.030453
+Biso o2      =     0.030454
+Biso tb      =     0.030454
+Scale        =     0.000433
+U            =     0.026863
+V            =    -0.027412
+W            =     0.016649
+
+# Additional Information
+# Material: tbbaco
+# Crystal Structure: orthorhombic
+# Model: model_tbbaco_10K_185.pth

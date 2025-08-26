@@ -1,0 +1,12 @@
+model name: model_pbso4_64
+used base model: None
+training data path: data\train_data\pbso4_20250504_214555\pbso4_simulated_data_row_param.dat
+omit background parameter: True
+digit-based parameter scaling: True
+adaptive reference-based scaling: False
+crystal structure: orthorhombic (3 lattice parameters)
+total parameters: 13
+Biso parameters: 5
+start time: 20250507_014955
+time finished: 20250507_015655
+

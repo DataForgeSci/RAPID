@@ -1,0 +1,23 @@
+======================================================
+            MATERIAL IDENTIFICATION REPORT             
+======================================================
+
+Date/Time: 2025-08-05 07:42:49
+
+IDENTIFICATION RESULTS:
+----------------------
+Identified Material: tbbaco
+Overall Match Score: 0.809
+Position Score: 0.967
+Intensity Score: 0.505
+Shape Score: 0.748
+
+TOP MATCHES:
+1. tbbaco: Score 0.809
+   Position Score: 0.967, Intensity Score: 0.505, Shape Score: 0.748
+
+NOTES:
+-----
+- Identification based on peak position, intensity, and shape analysis
+- Shape analysis includes FWHM (peak width) and peak asymmetry
+- Further parameter prediction and refinement will be performed if possible

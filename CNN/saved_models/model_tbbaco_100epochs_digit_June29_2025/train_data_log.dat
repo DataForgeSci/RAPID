@@ -1,0 +1,12 @@
+model name: model_tbbaco_10K_185
+used base model: None
+training data path: data\train_data\tbbaco_20250627_033355\tbbaco_simulated_data_row_param.dat
+omit background parameter: True
+digit-based parameter scaling: True
+adaptive reference-based scaling: False
+crystal structure: orthorhombic (3 lattice parameters)
+total parameters: 13
+Biso parameters: 5
+start time: 20250629_013413
+time finished: 20250629_014118
+

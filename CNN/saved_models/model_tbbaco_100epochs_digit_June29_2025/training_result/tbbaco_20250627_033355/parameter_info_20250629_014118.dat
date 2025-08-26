@@ -1,0 +1,28 @@
+Parameter Information:
+----------------------------------------
+Total parameters: 13
+Parameter counts by type:
+  zero: 1
+  lattice parameter: 3
+  biso: 5
+  scale factor: 1
+  u parameter: 1
+  v parameter: 1
+  w parameter: 1
+
+Parameter types in order:
+  1: zero
+  2: lattice parameter a
+  3: lattice parameter b
+  4: lattice parameter c
+  5: biso_ba
+  6: biso_co
+  7: biso_o1
+  8: biso_o2
+  9: biso_tb
+  10: scale factor
+  11: u parameter
+  12: v parameter
+  13: w parameter
+
+Background parameter: Absent/Omitted

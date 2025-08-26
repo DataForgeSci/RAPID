@@ -1,0 +1,18 @@
+Zero         =    -0.089054
+Lattice a    =     8.478931
+Lattice b    =     5.396857
+Lattice c    =     6.958322
+Biso o1      =     1.987669
+Biso o2      =     1.467085
+Biso o3      =     1.317186
+Biso pb      =     1.411911
+Biso s       =     0.418023
+Scale        =     1.480242
+U            =     0.154734
+V            =    -0.453976
+W            =     0.417253
+
+# Additional Information
+# Material: pbso4
+# Crystal Structure: orthorhombic
+# Model: model_pbso4_64.pth

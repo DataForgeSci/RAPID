@@ -1,0 +1,69 @@
+COMMYBA2CU2COO7 D1A RIETVELD YOUNG
+! Current global Chi2 (Bragg contrib.) =      259.3    
+! Files => DAT-file: YBaCuCoO.dat,  PCR-file: YBaCuCoO
+!Job Npr Nph Nba Nex Nsc Nor Dum Iwg Ilo Ias Res Ste Nre Cry Uni Cor Opt Aut
+   1   5   1   0   1   0   1   1   0   0   1   0   0   0   0   0   0   0   1
+!
+!Ipr Ppl Ioc Mat Pcr Ls1 Ls2 Ls3 NLI Prf Ins Rpa Sym Hkl Fou Sho Ana
+   0   0   1   1   1   0   4   0   0   1   1   1   1   2   0   0   0
+!
+! Lambda1  Lambda2    Ratio    Bkpos    Wdt    Cthm     muR   AsyLim   Rpolarz  2nd-muR -> Patt# 1
+ 1.909500 1.909500  1.00000   30.000  6.0000  0.0000  0.0000   45.00    0.0000  0.0000
+!
+!NCY  Eps  R_at  R_an  R_pr  R_gl     Thmin       Step       Thmax    PSD    Sent0
+  9  0.03  0.50  0.50  0.50  0.50      0.0690   0.050000   150.0000   0.000   0.000
+!
+! Excluded regions (LowT  HighT) for Pattern#  1
+        0.00       15.00
+! 
+!
+       0    !Number of refined parameters
+!
+!  Zero    Code    SyCos    Code   SySin    Code  Lambda     Code MORE ->Patt# 1
+  0.00000    0.0  0.00000    0.0  0.00000    0.0 0.000000    0.00   0
+!   Background coefficients/codes  for Pattern#  1  (Polynomial of 6th degree)
+      30.658       0.000       0.000       0.000       0.000       0.000
+        0.00        0.00        0.00        0.00        0.00        0.00
+!-------------------------------------------------------------------------------
+!  Data for PHASE number:   1  ==> Current R_Bragg for Pattern#  1:    33.58
+!-------------------------------------------------------------------------------
+YBaCuCoO
+!
+!Nat Dis Ang Pr1 Pr2 Pr3 Jbt Irf Isy Str Furth       ATZ    Nvk Npr More
+   9   0   0 1.0 1.0 1.0   0   0   0   0   0        665.166   0   5   0
+!
+P 4/M M M                <--Space group symbol
+!Atom   Typ       X        Y        Z     Biso       Occ     In Fin N_t Spc /Codes
+Y      Y       0.50000  0.50000  0.50000  0.80315   0.06250   0   0   0    0  
+                  0.00     0.00     0.00     0.00      0.00
+BA     BA      0.50000  0.50000  0.18726  0.78411   0.12500   0   0   0    0  
+                  0.00     0.00     0.00     0.00      0.00
+CU1    CU      0.00000  0.00000  0.00000  0.71397   0.04089   0   0   0    0  
+                  0.00     0.00     0.00     0.00      0.00
+CO1    CO      0.00000  0.00000  0.00000  0.71397   0.02162   0   0   0    0  
+                  0.00     0.00     0.00     0.00      0.00
+CU2    CU      0.00000  0.00000  0.35754  0.71061   0.12376   0   0   0    0  
+                  0.00     0.00     0.00     0.00      0.00
+CO2    CO      0.00000  0.00000  0.35754  0.71061   0.00125   0   0   0    0  
+                  0.00     0.00     0.00     0.00      0.00
+O1     O       0.00000  0.00000  0.15598  2.01898   0.12500   0   0   0    0  
+                  0.00     0.00     0.00     0.00      0.00
+O2     O       0.50000  0.00000  0.37814  0.83387   0.25000   0   0   0    0  
+                  0.00     0.00     0.00     0.00      0.00
+O4     O       0.00000  0.50000  0.00000  2.63557   0.06490   0   0   0    0  
+                  0.00     0.00     0.00     0.00      0.00
+!-------> Profile Parameters for Pattern #  1
+!  Scale        Shape1      Bov      Str1      Str2      Str3   Strain-Model
+  2.3354       0.12433   0.00000   0.00000   0.00000   0.00000       0
+     0.00000     0.000     0.000     0.000     0.000     0.000
+!       U         V          W           X          Y        GauSiz   LorSiz Size-Model
+   0.146908  -0.365872   0.304555   0.000000   0.000000   0.000000   0.000000    0
+      0.000      0.000      0.000      0.000      0.000      0.000      0.000
+!     a          b         c        alpha      beta       gamma      #Cell Info
+   3.859003   3.859003  11.679473  90.000000  90.000000  90.000000   
+    0.00000    0.00000    0.00000    0.00000    0.00000    0.00000
+!  Pref1    Pref2      Asy1     Asy2     Asy3     Asy4  
+  1.00000  0.00000  0.00000  0.00000  0.00000  0.00000
+     0.00     0.00     0.00     0.00     0.00     0.00
+!  2Th1/TOF1    2Th2/TOF2  Pattern to plot
+      15.000     150.000       1

@@ -1,0 +1,13 @@
+Zero         =    -0.018885
+Lattice a    =     5.411551
+Biso ce      =     0.039679
+Biso o       =     0.855267
+Scale        =     0.000667
+U            =     0.021726
+V            =    -0.039948
+W            =     0.019823
+
+# Additional Information
+# Material: CeO2
+# Crystal Structure: cubic
+# Model: model_CeO2_111.pth

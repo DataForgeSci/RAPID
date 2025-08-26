@@ -1,0 +1,233 @@
+Scale-Contribution[0]
+step:    2
+0
+78.3
+Sysin-Pattern[0]
+step:    3
+0
+75.6
+Zero-Pattern[0]
+step:    4
+0
+74.9
+BACK[0]-Background
+step:    5
+0
+44.0
+BACK[1]-Background
+step:    6
+0
+43.8
+a-Phase[0]
+step:    7
+0
+43.3
+alpha-Phase[0]
+step:    8
+0
+43.3
+beta-Phase[0]
+step:    9
+0
+43.3
+gamma-Phase[0]
+step:    10
+0
+43.3
+b-Phase[0]
+step:    11
+0
+43.3
+c-Phase[0]
+step:    12
+0
+43.3
+W-Profile
+step:    13
+0
+22.2
+BACK[0]-Background
+step:    14
+0
+22.1
+BACK[1]-Background
+step:    15
+0
+22.1
+BACK[2]-Background
+step:    16
+0
+22.0
+BACK[3]-Background
+16
+22.1
+BACK[4]-Background
+step:    17
+0
+22.0
+BACK[5]-Background
+16
+22.2
+V-Profile
+step:    18
+0
+22.0
+U-Profile
+step:    19
+0
+21.0
+PA1-AsymmetryParameter
+16
+29.1
+PA2-AsymmetryParameter
+step:    20
+0
+20.3
+PA3-AsymmetryParameter
+16
+24.0
+PA4-AsymmetryParameter
+step:    21
+0
+20.3
+Y-Profile
+step:    22
+0
+8.21
+X-Profile
+step:    23
+0
+8.01
+X-Atom[0]
+16
+8.25
+X-Atom[1]
+16
+8.25
+X-Atom[2]
+16
+8.2
+Y-Atom[0]
+16
+8.25
+Y-Atom[1]
+16
+8.25
+Y-Atom[2]
+16
+8.17
+Z-Atom[0]
+16
+8.25
+Z-Atom[1]
+16
+8.25
+Z-Atom[2]
+16
+8.24
+Pref1-PreferOrient
+1
+8.01
+Pref2-PreferOrient
+1
+8.01
+Bov-Contribution[0]
+step:    24
+0
+7.72
+Biso-AtomicDisplacementFactor
+step:    25
+0
+7.54
+Biso-AtomicDisplacementFactor
+step:    26
+0
+7.42
+Biso-AtomicDisplacementFactor
+step:    27
+0
+7.42
+GausSiz-Profile
+step:    28
+0
+7.42
+Occ-Atom[0]
+16
+7.5
+Occ-Atom[1]
+16
+8.59
+Occ-Atom[2]
+step:    29
+0
+7.31
+B11-AtomicDisplacementFactor
+16
+7.37
+B12-AtomicDisplacementFactor
+16
+7.66
+B13-AtomicDisplacementFactor
+16
+7.66
+B11-AtomicDisplacementFactor
+step:    30
+0
+7.3
+B12-AtomicDisplacementFactor
+step:    31
+0
+7.3
+B13-AtomicDisplacementFactor
+step:    32
+0
+7.29
+B11-AtomicDisplacementFactor
+16
+7.51
+B12-AtomicDisplacementFactor
+16
+7.38
+B13-AtomicDisplacementFactor
+16
+7.31
+B22-AtomicDisplacementFactor
+16
+7.3
+B23-AtomicDisplacementFactor
+16
+7.3
+B22-AtomicDisplacementFactor
+16
+7.3
+B23-AtomicDisplacementFactor
+16
+7.31
+B22-AtomicDisplacementFactor
+16
+7.42
+B23-AtomicDisplacementFactor
+16
+7.32
+B33-AtomicDisplacementFactor
+16
+7.3
+B33-AtomicDisplacementFactor
+16
+7.3
+B33-AtomicDisplacementFactor
+16
+7.33
+PA1-AsymmetryParameter
+step:    33
+0
+7.26
+PA2-AsymmetryParameter
+16
+7.27
+PA3-AsymmetryParameter
+16
+37.0
+PA4-AsymmetryParameter
+16
+7.27

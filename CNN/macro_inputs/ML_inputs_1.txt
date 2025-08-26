@@ -1,0 +1,48 @@
+#############################################
+# ML_inputs.txt
+# Example configuration file for XRD script
+#############################################
+
+# 1> Train from scratch? (y/n). 
+#   If "y", also provide the new model name (semicolon-separated). 
+#   Example: y;model_name
+#   If "n", we skip creating a new model name and will try to load existing model instead.
+y;model_tbbaco_10K_1
+
+# 2> Name of an existing model folder in 'saved_models' to load. 
+#   If line 1 was "y", then you can enter "n" here to skip (i.e., we won't load an existing model).
+#   Otherwise, provide the exact folder name under 'saved_models' (e.g. "myModel_20231201").
+n
+
+# 3>Train the model progressively with more than one dataset?
+# If you answer "Y;" then list multiple dataset folder names separated by commas (e.g. Y;Si_1, Si_2 meaning you will train sequentially on Si_1 then Si_2)
+# If you answer "N;", then provide exactly one dataset folder name on the same line (e.g. N;Si_1 meaning you will only train on Si_1)
+N;tbbaco_20250627_033355
+
+# 4> Experimental .dat file(s) for ML refinement, comma-separated if multiple. 
+#   (e.g. "Si.dat,CTO.dat"). If you don’t want any refinement, write "n" to skip.
+tbbaco.dat
+
+# 5> Do Rietveld Refinemnet using the refined parameters? (y/n).
+y
+
+# 6> Execute feature importance test? (y/n).
+y
+
+# 7> Omit background parameter from CNN training and prediction? (y/n).
+y
+
+# 8>Enter the Bragg reflection peak number to zoom in on (or "default"):
+7
+
+# 9>Customize zoom width around selected peak (in degrees 2θ, or 'auto' for structure-dependent defaults):
+1.5
+
+# 10> Use digit-based parameter scaling? (y/n) [Normalizes values to similar digit places for improved consistency]
+y
+
+# 11> Use reference-based adaptive scaling? (y/n) [Scales parameters relative to reference values from standard materials]
+n
+
+# 12> Specify DAT file format structure (Si.dat, CeO2.dat, pbso4.dat, tbbaco.dat):
+tbbaco.dat

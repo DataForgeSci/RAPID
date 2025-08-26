@@ -1,0 +1,57 @@
+Scale-Contribution[0]
+step:    36
+0
+7.27
+Sysin-Pattern[0]
+step:    37
+0
+7.27
+Zero-Pattern[0]
+step:    38
+0
+7.27
+BACK[0]-Background
+step:    39
+0
+7.27
+BACK[1]-Background
+step:    40
+0
+7.27
+a-Phase[0]
+step:    41
+0
+7.27
+alpha-Phase[0]
+step:    42
+0
+7.27
+beta-Phase[0]
+step:    43
+0
+7.27
+gamma-Phase[0]
+step:    44
+0
+7.27
+b-Phase[0]
+step:    45
+0
+7.27
+c-Phase[0]
+step:    46
+0
+7.27
+W-Profile
+step:    47
+0
+7.27
+BACK[0]-Background
+step:    48
+0
+7.27
+BACK[1]-Background
+step:    49
+0
+7.27
+BACK[2]-Background

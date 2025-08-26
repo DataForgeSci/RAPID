@@ -1,0 +1,23 @@
+======================================================
+            MATERIAL IDENTIFICATION REPORT             
+======================================================
+
+Date/Time: 2025-08-05 07:56:40
+
+IDENTIFICATION RESULTS:
+----------------------
+Identified Material: pbso4
+Overall Match Score: 0.882
+Position Score: 0.957
+Intensity Score: 0.712
+Shape Score: 0.870
+
+TOP MATCHES:
+1. pbso4: Score 0.882
+   Position Score: 0.957, Intensity Score: 0.712, Shape Score: 0.870
+
+NOTES:
+-----
+- Identification based on peak position, intensity, and shape analysis
+- Shape analysis includes FWHM (peak width) and peak asymmetry
+- Further parameter prediction and refinement will be performed if possible

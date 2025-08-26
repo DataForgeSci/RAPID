@@ -1,0 +1,39 @@
+# Rietveld Refinement Analysis Report
+# Generated: 2025-05-07_01-57-19
+# Crystal Structure: orthorhombic
+
+# Space Group: P n m a             
+ -
+
+# Explanation:
+#   RefinementType: CNN ML or Solution refinement
+#   Rp(%)         : Conventional Rietveld Rp in percent (Bragg-Only)
+#   Rwp(%)        : Conventional Rietveld Rwp in percent (Bragg-Only)
+#   Re(%)         : Expected Rwp in percent (Bragg-Only)
+#   Chi²          : Goodness of fit (Rwp/Re)² (Bragg-Only)
+#   ZeroShift     : final zero shift (degrees)
+#   Background    : first background coefficient
+#   Biso_O1      : isotropic displacement parameter for O1
+#   Biso_O2      : isotropic displacement parameter for O2
+#   Biso_O3      : isotropic displacement parameter for O3
+#   Biso_Pb      : isotropic displacement parameter for Pb
+#   Biso_S      : isotropic displacement parameter for S
+#   Scale         : final scale factor
+#   a, b, c       : orthorhombic lattice parameters (Å)
+#   U, V, W       : final peak shape parameters
+#   Status        : parse result from .out (OK, NO_OUT, etc.)
+#   FirstBragg    : first bragg peak 2theta from .prf
+
+# IMPORTANT: All R-factors (Rp, Rwp, Re, Chi²) are from 'Points with Bragg Contributions' section:
+#   * These values are calculated only over the data points overlapping actual Bragg peaks
+#   * Conventional Rietveld Rp: Basic ratio of total absolute difference to total intensity
+#   * Rwp: Weighted difference ratio, typically your main index
+#   * Re: Ideal Rwp if only noise remains
+#   * Chi²: (Rwp/Re)², checking if you match the data within random error
+
+# NOTE: Background parameter was omitted from CNN training/prediction
+#       Background values for CNN results are taken from original PCR files
+
+# RefinementType        Rp(%)      Rwp(%)     Re(%)      Chi²      ZeroShift     Background    Biso_O1     Biso_O2     Biso_O3     Biso_Pb     Biso_S      Scale      a          b          c          U        V        W     FirstBragg   Status
+CNN_ML                   7.380     7.180     3.540     4.111     -0.08905    207.88000   1.98767   1.46708   1.31719   1.41191   0.41802    1.480242    8.478931    5.396857    6.958322   0.15473  -0.45398   0.41725    20.38620  OK
+Solution                 7.370     7.160     3.540     4.090     -0.08796    207.88000   1.98971   1.46860   1.31858   1.41333   0.41847    1.480409    8.478840    5.396730    6.958399   0.15562  -0.45592   0.41911    20.38730  OK

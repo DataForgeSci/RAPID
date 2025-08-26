@@ -1,0 +1,139 @@
+#Input Parameters#
+
+1>Name of .CIF file
+CeO2_vesta.cif
+
+2>Name of .DAT file
+CeO2.dat
+
+3>Name of .PCR file to be generated
+CeO2.pcr
+
+4>Value of INS
+10
+
+5>Enter the name of the subfolder to be created in the data directory (the purpose of the subfolder is to organize and store related data files and refinement results for analysis):
+CeO2
+
+6>Input value for zero parameter (input 'skip' if you wish to skip to next row and input maximum absolute shift range instead):
+skip
+
+7>Input the maximum absolute shift range for generating a random number around the zero parameter value (example: 0.03). You may ignore this part if you did not skip part 6>:
+0.005
+
+8>Input value for background parameter (input 'skip' if you wish to skip to next row and input maximum absolute shift range instead):
+skip
+
+9>Input the maximum absolute shift range for generating a random number around the background parameter value (example: 0.03). You may ignore this part if you did not skip part 8>:
+0
+
+10>Input values (example: 10, 10, 10, 90, 90, 90) for lattice parameters a, b, c, alpha, beta, gamma (input 'skip' if you wish to input maximum percentage scaling range instead):
+skip
+
+11>Enter the lattice type (cubic, tetragonal, orthorhombic, hexagonal, monoclinic, triclinic, trigonal):
+cubic
+
+12>Input the percentage range for generating a random number around the lattice parameters with degrees of freedom (example: 3%). You may ignore this part if you did not skip part 10>:
+0.005%
+
+13>Input the number of datasets to be generated: (The first half will be uniformly distributed points on the grid defined by the ranges in 7>, 9>, and 12>, and the second half will be randomly distributed points on this grid)
+100
+
+14>Use the default two theta sampling range? (Y/N); If 'Y', the range is determined automatically. If 'N', specify the range as: initial, step, final (example: N;5,0.1,110):
+N;25,0.2,100
+
+15>Display AutoFP GUI interface (Y/N)?
+N
+
+16>Generate all output figures (Y/N)?
+Y
+ 
+17>Display all output figures (Y/N)?
+N
+
+18>Run scripts step 5 and step 6 for R-factor analysis and contour plots (Y/N)?:
+N
+
+19>Make simulated_dataset folder and save its files (sample PCR, PRF files) (Y/N)?:
+N
+
+20>Make output_figures folder and save its files (analysis plots, distributions) (Y/N)?:
+Y
+
+21>Generate .BIN files instead of .DAT files? (Y/N):
+N
+
+22>Train Convolutional Neural Network model with the generated .DAT file (Y/N)?:
+N
+
+23>Input the percentage range for generating a random number around the Biso parameter with degrees of freedom (example: 3%):
+0.01%
+
+24>Input the percentage range for generating a random number around the scale factor parameter with degrees of freedom (example: 5%):
+0.1%
+
+25>Input the percentage range for generating a random number around the U, parameter with degrees of freedom (example: 1%):
+0.1%
+
+26>Input the percentage range for generating a random number around the V, parameter with degrees of freedom (example: 1%):
+0.1%
+
+27>Input the percentage range for generating a random number around the W, parameter with degrees of freedom (example: 1%):
+0.1%
+
+28>Input the number of epochs for CNN training:
+10
+
+29>Perform Step 3.5 distribution & classification logic (Y/N)?:
+Y
+
+30>Enter Rwp threshold (in %) for a "close" fit classification (or 'default' to use recommended 80%):
+default
+
+31>Enter max Rwp (in %) for a "boundary" fit classification (or 'default' to use recommended 20%):
+default
+
+32>Allow partial re-run if 80/20 ratio not met? (Y/N)?:
+N
+
+33>Generate classification plots after each re-run? (Y/N):
+N
+
+34>Reference PCR file to extract parameters from (leave blank or enter "default" to use default):
+CeO2.pcr
+
+35>Select which Bragg reflection peak to zoom into (1=first peak, 2=second, etc., or 'auto' for most intense peak):
+auto
+
+36>Customize zoom width around the selected peak (in degrees 2θ, or 'auto' for structure-dependent defaults):
+0.3
+
+37>Enter two-theta range for classification plots (min, max, or 'default' for standard 0-100 range):
+25, 100
+
+38>Copy asymmetry-shape parameters and preferred orientation parameters from reference PCR (Y/N)?:
+Y
+
+39>Copy scan-range and pattern-selection parameters from reference PCR (Y/N)?:
+Y
+
+40>Generate classification profile plots (Y/N)?:
+Y
+
+41>Generate parameter shift distribution plots (Y/N)?:
+Y
+
+42>Generate PRF files folder (Y/N)?:
+N
+
+43>Generate Rietveld refinement plots (Y/N)?:
+N
+
+44>Generate Ycal original versus interpolated plots (Y/N)?:
+N
+
+45>How many ML_inputs files to create for CNN training?
+2
+
+46>Atom data format in PCR file (enter "4-line" for standard format with thermal parameters, or "2-line" for simplified format without thermal parameters - check your PCR file to see if each atom has 4 lines or 2 lines of data):
+2-line

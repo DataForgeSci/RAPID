@@ -1,0 +1,23 @@
+======================================================
+            MATERIAL IDENTIFICATION REPORT             
+======================================================
+
+Date/Time: 2025-08-05 07:45:47
+
+IDENTIFICATION RESULTS:
+----------------------
+Identified Material: CeO2
+Overall Match Score: 0.796
+Position Score: 1.000
+Intensity Score: 0.207
+Shape Score: 0.848
+
+TOP MATCHES:
+1. CeO2: Score 0.796
+   Position Score: 1.000, Intensity Score: 0.207, Shape Score: 0.848
+
+NOTES:
+-----
+- Identification based on peak position, intensity, and shape analysis
+- Shape analysis includes FWHM (peak width) and peak asymmetry
+- Further parameter prediction and refinement will be performed if possible

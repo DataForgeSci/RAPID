@@ -1,0 +1,881 @@
+
+
+        **********************************************************
+        ** PROGRAM FullProf.2k (Version 8.10 - Oct2024-ILL JRC) **
+        **********************************************************
+                       M U L T I -- P A T T E R N                 
+            Rietveld, Profile Matching & Integrated Intensity     
+                 Refinement of X-ray and/or Neutron Data
+
+
+    Date: 05/08/2025  Time: 07:56:54.515                              
+
+ => PCR file code: cnn_refined
+ => DAT file code: pbso4.dat            -> Relative contribution: 1.0000                                                            
+
+ ==> CONDITIONS OF THIS RUN FOR PATTERN No.:  1
+
+ => Global Refinement of neutron powder data                                                                                        
+ => Title:   PbSO4.pcr
+
+ => Number of phases:    1
+ => Number of excluded regions:    2
+ => Number of scattering factors supplied:    0
+ => March-Dollase model for preferred orientation
+ => Conventional weights: w=1.0/Variance(yobs)
+ => Asymmetry correction as in J.Appl.Cryst. 26,128(1993)
+ => Background refined by polynomial function
+ => The    7th default profile function was selected
+ => T-C-H Pseudo-Voigt function 
+    This function is convoluted with asymmetry due to axial 
+    divergence as formulated by: 
+    van Laar and Yelon, J. Appl. Cryst. 17, 47(1984).
+    and using the method of:
+    Finger, Cox and Jephcoat, J. Appl. Cryst. 27, 892 (1994).
+    Fortran 90 module adapted from function PROFVAL (in F77) : 
+    L.W. Finger, J. Appl. Cryst. 31, 111 (1998).
+
+
+ ==> INPUT/OUTPUT OPTIONS:
+
+ => Generate file *.PRF for plot
+ => Output Integrated Intensities
+ => Generate new input file *.PCR
+
+ => Data in D1A,D2B format as prepared by D1A(D2B)SUM for pattern:  1
+ => Plot pattern at each cycle
+ => Wavelengths:  1.91200 1.91200
+ => Alpha2/Alpha1 ratio:   1.0000
+ => Cos(Monochromator angle)=   0.0000
+ => Asymmetry correction for angles lower than  160.000 degrees
+ => Absorption correction (AC), muR-eff =   0.0000  0.0000
+ => Base of peaks: 2.0*HW*    6.00
+
+ => Number of cycles:   10
+ => Relaxation factors ==>    for coordinates:  1.00
+ => for anisotropic temperature factors:  1.00
+ => for halfwidth/strain/size/further parameters:  1.00
+ => for lattice constants and propagation vectors:  1.00
+ => EPS-value for convergence:    0.1
+
+ => Excluded regions for Pattern#  1
+    From     to
+      0.0000     10.0000
+    154.0000    180.0000
+
+ => Number of Least-Squares parameters varied:     0
+
+ =>--------------------------->
+ =>------->  PATTERN number:  1
+ =>--------------------------->
+ => Global parameters and codes ==>
+ => Zero-point:    -0.0891    0.0000
+ => Background parameters and codes ==>
+ => Origin of polynomial at 2theta/TOF/E(KeV):   70.000  
+  207.88      40.365      44.014     -20.712     -39.305      7.3530    
+        0.00        0.00        0.00        0.00        0.00        0.00
+ => Perpendicular Displacement parameter and code:     0.00    0.00
+ => Parallel      Displacement parameter and code:     0.00    0.00
+
+ => Reading Intensity data  =>>
+
+ -> Heading of input data:
+
+   ->   Title:  PbSO4 D1A(ILL)(Rietveld Refinement Round Robin, R.J. Hill, JApC 25, 589 (1992)                                                     
+
+   ->    Step:  0.050
+   ->   Thmin:   10.000
+   -> Monitors:   10000.  10000.
+ ==> Angular range, step and number of points:
+     2Thmin:      10.000000  2Thmax:     155.449997  Step:       0.050000  No. of points:   2910
+ --------------------------------------------------------------------------------
+ => Phase  No. 1
+      pbso4                                                                 
+ --------------------------------------------------------------------------------
+ =>-------> Pattern#  1
+ => Crystal Structure Refinement
+ => Preferred orientation vector:   0.0000  0.0000  1.0000
+
+ =>-------> Data for PHASE: 1
+ => Number of atoms:    5
+ => Number of distance  constraints:    0
+ => Number of angle     constraints:    0
+
+ => Symmetry information on space group: P n m a             
+ -> The multiplicity of the general position is:   8
+ -> The space group is Centric (-1 at origin)   
+ -> Lattice type  P: { 000 }                                       
+ -> Reduced set of symmetry operators:
+
+  No.  IT   Symmetry symbol    Rotation part     Associated Translation
+   1: ( 1)   1            -->     ( x, y, z) + {  0.0000  0.0000  0.0000}
+   2: ( 4)   2 ( x, 0, 0) -->     ( x,-y,-z) + {  0.5000  0.5000  0.5000}
+   3: ( 3)   2 ( 0, y, 0) -->     (-x, y,-z) + {  0.0000  0.5000  0.0000}
+   4: ( 2)   2 ( 0, 0, z) -->     (-x,-y, z) + {  0.5000  0.0000  0.5000}
+
+
+        Information on Space Group: 
+        --------------------------- 
+
+ =>   Number of Space group:  62
+ =>  Hermann-Mauguin Symbol: P n m a
+ =>             Hall Symbol: -P 2ac 2n
+ =>            Setting Type: IT (Generated from Hermann-Mauguin symbol)
+ =>          Crystal System: Orthorhombic
+ =>              Laue Class: mmm
+ =>             Point Group: mmm
+ =>         Bravais Lattice: P
+ =>          Lattice Symbol: oP
+ =>  Reduced Number of S.O.:   4
+ =>    General multiplicity:   8
+ =>          Centrosymmetry: Centric (-1 at origin)
+ =>  Generators (exc. -1&L):   2
+ =>         Asymmetric unit:  0.000 <= x <=  0.500
+                              0.000 <= y <=  0.250
+                              0.000 <= z <=  1.000
+ => Centring vectors:  0
+                                                                                                    
+
+ => List of all Symmetry Operators and Symmetry Symbols
+
+ => SYMM(  1): x,y,z                             Symbol: 1
+ => SYMM(  2): x+1/2,-y+1/2,-z+1/2               Symbol: 2 (1/2,0,0) x,1/4,1/4
+ => SYMM(  3): -x,y+1/2,-z                       Symbol: 2 (0,1/2,0) 0,y,0
+ => SYMM(  4): -x+1/2,-y,z+1/2                   Symbol: 2 (0,0,1/2) 1/4,0,z
+ => SYMM(  5): -x,-y,-z                          Symbol: -1 0,0,0
+ => SYMM(  6): -x+1/2,y+1/2,z+1/2                Symbol: n (0,1/2,1/2) 1/4,y,z
+ => SYMM(  7): x,-y+1/2,z                        Symbol: m x,1/4,z
+ => SYMM(  8): x+1/2,y,-z+1/2                    Symbol: a x,y,1/4
+
+ => Special Wyckoff Positions for P n m a
+ 
+    Multp     Site        Representative Coordinates (centring translations excluded)
+      4       c              x,1/4,z             x+1/2,1/4,-z+1/2    -x,3/4,-z                               
+                             -x+1/2,3/4,z+1/2                                                                
+ 
+      4       b              0,0,1/2             1/2,1/2,0           0,1/2,1/2                               
+                             1/2,0,0                                                                         
+ 
+      4       a              0,0,0               1/2,1/2,1/2         0,1/2,0                                 
+                             1/2,0,1/2                                                                       
+ 
+
+ => Initial parameters ==>
+ Atom    Ntyp                  X         Y         Z         B         occ.         in  fin  Spc  Mult
+                             B11       B22       B33       B12       B13       B23
+ Pb     Pb                 0.18749   0.25000   0.16719   1.41191   0.50000           0    0    0    4
+                 Codes:    0.00000   0.00000   0.00000   0.00000   0.00000
+                 Betas:    0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+                 Codes:    0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+ S      S                  0.06540   0.25000   0.68340   0.41802   0.50000           0    0    0    4
+                 Codes:    0.00000   0.00000   0.00000   0.00000   0.00000
+                 Betas:    0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+                 Codes:    0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+ O1     O                  0.90770   0.25000   0.59530   1.98767   0.50000           0    0    0    4
+                 Codes:    0.00000   0.00000   0.00000   0.00000   0.00000
+                 Betas:    0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+                 Codes:    0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+ O2     O                  0.19380   0.25000   0.54320   1.46708   0.50000           0    0    0    4
+                 Codes:    0.00000   0.00000   0.00000   0.00000   0.00000
+                 Betas:    0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+                 Codes:    0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+ O3     O                  0.08103   0.02708   0.80905   1.31719   1.00000           0    0    0    8
+                 Codes:    0.00000   0.00000   0.00000   0.00000   0.00000
+                 Betas:    0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+                 Codes:    0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+
+ => It is assumed that THE FIRST GIVEN SITE plus all the other atoms 
+    occupying THE SAME POSITION have a total full occupation (no vacancies!)
+  (if this is not the case, change the order of atoms to obtain correct values for the content of the unit cell)
+    The given occupation factors have been obtained mutiplying m/M by   0.5000
+      -> Atom: Pb  ,  Chemical element: PB  Atomic Mass:   207.2000
+      -> Atom: S   ,  Chemical element: S   Atomic Mass:    32.0600
+      -> Atom: O   ,  Chemical element: O   Atomic Mass:    15.9994
+      -> Atom: O   ,  Chemical element: O   Atomic Mass:    15.9994
+      -> Atom: O   ,  Chemical element: O   Atomic Mass:    15.9994
+ => The given value of ATZ is       1213.03 the program has calculated:        1213.03
+    The value of ATZ given in the input PCR file will be used for quantitative analysis
+ => The chemical content of the unit cell is: 
+       4.0000 Pb   +   4.0000 S    +   4.0000 O    +   4.0000 O    +   8.0000 O      
+ => The normalized site occupation numbers in % are: 
+     100.0000 Pb     :      100.0000 S      :      100.0000 O1     :      100.0000 O2     :      100.0000 O3       
+ => The density (volumic mass) of the compound is:    6.326 g/cm3
+
+ =>-------> PROFILE PARAMETERS FOR PATTERN:  1
+
+ => Overall scale factor:    1.47971    
+ => ETA (p-Voigt) OR M (Pearson VII):   0.0000
+ => Overall temperature factor:      0.00000
+ => Halfwidth U,V,W:      0.15473    -0.45398     0.41725
+ => X and Y parameters:       0.0000      0.0917
+ => Direct cell parameters:    8.4789   5.3969   6.9583  90.0000  90.0000  90.0000
+ => Preferred orientation parameters:   1.0000  0.0000
+ => Asymmetry parameters     :      0.37392     0.03717    -0.32821     0.00000
+ => Strain parameters        :      0.00000     0.00000     0.00000
+ => Size   parameters        :      0.00000     0.00000
+ => Further shape parameters (S_L and D_L):   0.00000   0.00000
+    S_L is source width/detector distance
+    D_L is detector width/detector distance
+
+ ==> CODEWORDS FOR PROFILE PARAMETERS of PATTERN#  1
+
+ => Overall scale factor:    0.000
+ => ETA (p-Voigt) OR M (Pearson VII):    0.000
+ => Overall temperature factor:    0.000
+ => Halfwidth U,V,W:    0.000   0.000   0.000
+ => X and Y parameters:    0.000   0.000
+ => Direct cell parameters:    0.000   0.000   0.000   0.000   0.000   0.000
+ => Preferred orientation parameters:    0.000   0.000
+ => Asymmetry parameters     :    0.000   0.000   0.000   0.000
+ => Strain parameters        :    0.000   0.000   0.000
+ => Size   parameters        :    0.000   0.000
+
+ => Cell constraints according to Laue symmetry: mmm  
+
+        Metric information:
+        -------------------
+
+ => Direct cell parameters:
+
+         a =       8.4789      b =       5.3969      c =       6.9583
+     alpha =       90.000   beta =       90.000  gamma =       90.000
+                        Direct Cell Volume =     318.4099
+
+ => Reciprocal cell parameters:
+
+         a*=     0.117939      b*=     0.185293      c*=     0.143713
+     alpha*=       90.000   beta*=       90.000  gamma*=       90.000
+                    Reciprocal Cell Volume =   0.00314061
+
+ => Direct and Reciprocal Metric Tensors:
+
+                   GD                                       GR
+     71.8923      0.0000      0.0000          0.013910    0.000000    0.000000
+      0.0000     29.1261      0.0000          0.000000    0.034334    0.000000
+      0.0000      0.0000     48.4182          0.000000    0.000000    0.020653
+
+ =>  Cartesian frame: x // a; z is along c*; y is within the ab-plane   
+
+     Crystal_to_Orthonormal_Matrix              Orthonormal_to_Crystal Matrix
+              Cr_Orth_cel                               Orth_Cr_cel  
+      8.4789      0.0000      0.0000          0.117939   -0.000000   -0.000000
+      0.0000      5.3969      0.0000          0.000000    0.185293   -0.000000
+      0.0000      0.0000      6.9583          0.000000    0.000000    0.143713
+
+     Busing-Levy B-matrix: Hc=B.H            Inverse of the Busing-Levy B-matrix
+                BL_M                                      BL_Minv  
+    0.117939    0.000000    0.000000            8.4789     -0.0000     -0.0000
+    0.000000    0.185293   -0.000000            0.0000      5.3969      0.0000
+    0.000000    0.000000    0.143713            0.0000      0.0000      6.9583
+
+ => Laue symmetry mmm   will be used to generate HKL for pattern#   1
+ => Reflections generated between S(1/d)min:  0.0912 A-1 and S(1/d)max:  1.0354 A-1
+ =>                                    dmax: 10.9689 A   and      dmin:  0.9658 A
+ => The number of reflections generated is:    211
+ => The max. scatt. variable (gen.ref.) is:       163.6357
+ => Scattering coefficients from internal table
+
+ => Scattering lengths:
+
+ Pb     0.9405
+ S      0.2847
+ O      0.5803
+  
+ 
+ => No optimization for routine tasks
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ => CYCLE No.:    1
+ ------------------------------------------------------------------------------------------------------------------------------------
+ => Phase  1 Name: pbso4
+ ------------------------------------------------------------------------------------------------------------------------------------
+ => New parameters, shifts, and standard deviations
+
+ Atom        x       dx      sx       y       dy      sy       z       dz      sz       B       dB      sB      occ.    docc.   socc.
+
+ Pb       0.18749 0.00000 0.00000  0.25000 0.00000 0.00000  0.16719 0.00000 0.00000  1.41191 0.00000 0.00000  0.50000 0.00000 0.00000
+ S        0.06540 0.00000 0.00000  0.25000 0.00000 0.00000  0.68340 0.00000 0.00000  0.41802 0.00000 0.00000  0.50000 0.00000 0.00000
+ O1       0.90770 0.00000 0.00000  0.25000 0.00000 0.00000  0.59530 0.00000 0.00000  1.98767 0.00000 0.00000  0.50000 0.00000 0.00000
+ O2       0.19380 0.00000 0.00000  0.25000 0.00000 0.00000  0.54320 0.00000 0.00000  1.46708 0.00000 0.00000  0.50000 0.00000 0.00000
+ O3       0.08103 0.00000 0.00000  0.02708 0.00000 0.00000  0.80905 0.00000 0.00000  1.31719 0.00000 0.00000  1.00000 0.00000 0.00000
+
+ Atom         B11      DB11      SB11       B22      DB22      SB22       B33      DB33      SB33
+              B12      DB12      SB12       B13      DB13      SB13       B23      DB23      SB23
+ Pb      0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+         0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+ S       0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+         0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+ O1      0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+         0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+ O2      0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+         0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+ O3      0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+         0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+
+ ==> PROFILE PARAMETERS FOR PATTERN#  1
+
+ => Overall scale factor:      1.479711056     0.000000000     0.000000000
+ => Eta(p-Voigt) or m(Pearson VII):   0.000000  0.000000  0.000000
+ => Overall tem. factor:     0.000000    0.000000    0.000000
+ => Halfwidth parameters: 
+         0.154734    0.000000    0.000000
+        -0.453976    0.000000    0.000000
+         0.417253    0.000000    0.000000
+ => Cell parameters: 
+        8.478931    0.000000    0.000000
+        5.396857    0.000000    0.000000
+        6.958322    0.000000    0.000000
+       90.000000    0.000000    0.000000
+       90.000000    0.000000    0.000000
+       90.000000    0.000000    0.000000
+ => Preferred orientation: 
+         1.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Asymmetry parameters: 
+         0.373920    0.000000    0.000000
+         0.037170    0.000000    0.000000
+        -0.328210    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => X and Y parameters: 
+         0.000000    0.000000    0.000000
+         0.091739    0.000000    0.000000
+ => Strain parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Size   parameters (G,L): 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Further shape parameters (S_L and D_L): 
+       0.000000  0.000000  0.000000
+       0.000000  0.000000  0.000000
+
+ ==> GLOBAL PARAMETERS FOR PATTERN#  1
+
+
+ => Zero-point:    -0.0891    0.0000    0.0000
+ => Background Polynomial Parameters ==>
+       207.88      0.0000      0.0000    
+       40.365      0.0000      0.0000    
+       44.014      0.0000      0.0000    
+      -20.712      0.0000      0.0000    
+      -39.305      0.0000      0.0000    
+       7.3530      0.0000      0.0000    
+
+ => Cos(2theta)-shift parameter :   0.0000  0.0000  0.0000
+ => Sin(2theta)-shift parameter :   0.0000  0.0000  0.0000
+
+ ==> RELIABILITY FACTORS WITH ALL NON-EXCLUDED POINTS FOR PATTERN:  1
+
+ => R-Factors:   3.23      3.87     Chi2:  3.98     DW-Stat.:  0.3485   Patt#:  1
+ => Expected :            1.94                                1.8842
+ => Deviance : 0.197E+04     Dev*:  0.6842    
+ => GoF-index:  2.0         Sqrt(Residual/N)
+ => N-P+C:  2880
+
+ =>    SumYdif       SumYobs      SumYcal      SumwYobsSQ     Residual    Condition
+     0.3507E+05    0.1086E+07    0.1084E+07    0.7634E+07    0.1146E+05     0.000    
+
+
+ => Conventional Rietveld Rp,Rwp,Re and Chi2:   7.66      7.23      3.63      3.978    
+ => (Values obtained using Ynet, but true sigma(y))
+ =>  SumYnet, Sum(w Ynet**2):     0.4579E+06    0.2190E+07
+
+
+ ==> RELIABILITY FACTORS FOR POINTS WITH BRAGG CONTRIBUTIONS FOR PATTERN:  1
+
+ => R-Factors:   3.18      3.86     Chi2:  4.11     DW-Stat.:  0.3534   Patt#:
+ => Expected :            1.90                                1.8814
+ => Deviance : 0.184E+04     Dev*:  0.6705    
+ => GoF-index:  2.0         Sqrt(Residual/N)
+ => N-P+C:  2748
+
+ =>    SumYdif       SumYobs      SumYcal      SumwYobsSQ     Residual    Condition
+     0.3370E+05    0.1059E+07    0.1058E+07    0.7589E+07    0.1130E+05     0.000    
+
+
+ => Conventional Rietveld Rp,Rwp,Re and Chi2:   7.38      7.18      3.54      4.111    
+ => (Values obtained using Ynet, but true sigma(y))
+ =>  SumYnet, Sum(w Ynet**2):     0.4569E+06    0.2190E+07
+
+
+ => Global user-weigthed Chi2 (Bragg contrib.):   4.11    
+
+ => ---------> Pattern#  1
+ => Phase:  1
+ =>    Bragg R-factor:  4.17    
+ =>    RF-factor     :  2.72    
+
+
+   Standard deviations have to be multiplied by: 3.1778
+   (correlated residuals) See references:
+  -J.F.Berar & P.Lelann, J. Appl. Cryst. 24, 1-5 (1991) 
+  -J.F.Berar, Acc. in Pow. Diff. II,NIST Sp.Pub. 846, 63(1992) 
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ => CYCLE No.:    1
+ =>  Convergence reached at this CYCLE !!!!
+ =>  Parameter shifts set to zero
+ ------------------------------------------------------------------------------------------------------------------------------------
+ => Phase  1 Name: pbso4
+ ------------------------------------------------------------------------------------------------------------------------------------
+ => New parameters, shifts, and standard deviations
+
+ Atom        x       dx      sx       y       dy      sy       z       dz      sz       B       dB      sB      occ.    docc.   socc.
+
+ Pb       0.18749 0.00000 0.00000  0.25000 0.00000 0.00000  0.16719 0.00000 0.00000  1.41191 0.00000 0.00000  0.50000 0.00000 0.00000
+ S        0.06540 0.00000 0.00000  0.25000 0.00000 0.00000  0.68340 0.00000 0.00000  0.41802 0.00000 0.00000  0.50000 0.00000 0.00000
+ O1       0.90770 0.00000 0.00000  0.25000 0.00000 0.00000  0.59530 0.00000 0.00000  1.98767 0.00000 0.00000  0.50000 0.00000 0.00000
+ O2       0.19380 0.00000 0.00000  0.25000 0.00000 0.00000  0.54320 0.00000 0.00000  1.46708 0.00000 0.00000  0.50000 0.00000 0.00000
+ O3       0.08103 0.00000 0.00000  0.02708 0.00000 0.00000  0.80905 0.00000 0.00000  1.31719 0.00000 0.00000  1.00000 0.00000 0.00000
+
+ Atom         B11      DB11      SB11       B22      DB22      SB22       B33      DB33      SB33
+              B12      DB12      SB12       B13      DB13      SB13       B23      DB23      SB23
+ Pb      0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+         0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+
+    U-Eigen Value (A**2) ----      Eigen vector(Orth. syst.)
+        0.00000          ----    0.93753   -0.21290    0.27515
+        0.00000          ----    0.15653    0.96445    0.21291
+        0.00000          ----   -0.31070   -0.15653    0.93753
+
+    Isotropic temperature factor Uequiv(A**2):   0.0000
+    Isotropic temperature factor Bequiv(A**2):   0.0000
+
+     R.M.S. in ANGSTROMS ------       Angles with A, B, C
+        0.00000          ----     20.359    102.293     74.029
+        0.00000          ----     80.994     15.323     77.707
+        0.00000          ----    108.101     99.006     20.359
+ 
+ S       0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+         0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+
+    U-Eigen Value (A**2) ----      Eigen vector(Orth. syst.)
+        0.00000          ----    0.93753   -0.21290    0.27515
+        0.00000          ----    0.15653    0.96445    0.21291
+        0.00000          ----   -0.31070   -0.15653    0.93753
+
+    Isotropic temperature factor Uequiv(A**2):   0.0000
+    Isotropic temperature factor Bequiv(A**2):   0.0000
+
+     R.M.S. in ANGSTROMS ------       Angles with A, B, C
+        0.00000          ----     20.359    102.293     74.029
+        0.00000          ----     80.994     15.323     77.707
+        0.00000          ----    108.101     99.006     20.359
+ 
+ O1      0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+         0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+
+    U-Eigen Value (A**2) ----      Eigen vector(Orth. syst.)
+        0.00000          ----    0.93753   -0.21290    0.27515
+        0.00000          ----    0.15653    0.96445    0.21291
+        0.00000          ----   -0.31070   -0.15653    0.93753
+
+    Isotropic temperature factor Uequiv(A**2):   0.0000
+    Isotropic temperature factor Bequiv(A**2):   0.0000
+
+     R.M.S. in ANGSTROMS ------       Angles with A, B, C
+        0.00000          ----     20.359    102.293     74.029
+        0.00000          ----     80.994     15.323     77.707
+        0.00000          ----    108.101     99.006     20.359
+ 
+ O2      0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+         0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+
+    U-Eigen Value (A**2) ----      Eigen vector(Orth. syst.)
+        0.00000          ----    0.93753   -0.21290    0.27515
+        0.00000          ----    0.15653    0.96445    0.21291
+        0.00000          ----   -0.31070   -0.15653    0.93753
+
+    Isotropic temperature factor Uequiv(A**2):   0.0000
+    Isotropic temperature factor Bequiv(A**2):   0.0000
+
+     R.M.S. in ANGSTROMS ------       Angles with A, B, C
+        0.00000          ----     20.359    102.293     74.029
+        0.00000          ----     80.994     15.323     77.707
+        0.00000          ----    108.101     99.006     20.359
+ 
+ O3      0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+         0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+
+    U-Eigen Value (A**2) ----      Eigen vector(Orth. syst.)
+        0.00000          ----    0.93753   -0.21290    0.27515
+        0.00000          ----    0.15653    0.96445    0.21291
+        0.00000          ----   -0.31070   -0.15653    0.93753
+
+    Isotropic temperature factor Uequiv(A**2):   0.0000
+    Isotropic temperature factor Bequiv(A**2):   0.0000
+
+     R.M.S. in ANGSTROMS ------       Angles with A, B, C
+        0.00000          ----     20.359    102.293     74.029
+        0.00000          ----     80.994     15.323     77.707
+        0.00000          ----    108.101     99.006     20.359
+ 
+
+ ==> PROFILE PARAMETERS FOR PATTERN#  1
+
+ => Overall scale factor:      1.479711056     0.000000000     0.000000000
+ => Eta(p-Voigt) or m(Pearson VII):   0.000000  0.000000  0.000000
+ => Overall tem. factor:     0.000000    0.000000    0.000000
+ => Halfwidth parameters: 
+         0.154734    0.000000    0.000000
+        -0.453976    0.000000    0.000000
+         0.417253    0.000000    0.000000
+ => Cell parameters: 
+        8.478931    0.000000    0.000000
+        5.396857    0.000000    0.000000
+        6.958322    0.000000    0.000000
+       90.000000    0.000000    0.000000
+       90.000000    0.000000    0.000000
+       90.000000    0.000000    0.000000
+ => Preferred orientation: 
+         1.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Asymmetry parameters: 
+         0.373920    0.000000    0.000000
+         0.037170    0.000000    0.000000
+        -0.328210    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => X and Y parameters: 
+         0.000000    0.000000    0.000000
+         0.091739    0.000000    0.000000
+ => Strain parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Size   parameters (G,L): 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Further shape parameters (S_L and D_L): 
+       0.000000  0.000000  0.000000
+       0.000000  0.000000  0.000000
+
+ ==> GLOBAL PARAMETERS FOR PATTERN#  1
+
+
+ => Zero-point:    -0.0891    0.0000    0.0000
+ => Background Polynomial Parameters ==>
+       207.88      0.0000      0.0000    
+       40.365      0.0000      0.0000    
+       44.014      0.0000      0.0000    
+      -20.712      0.0000      0.0000    
+      -39.305      0.0000      0.0000    
+       7.3530      0.0000      0.0000    
+
+ => Cos(2theta)-shift parameter :   0.0000  0.0000  0.0000
+ => Sin(2theta)-shift parameter :   0.0000  0.0000  0.0000
+
+ ==> RELIABILITY FACTORS WITH ALL NON-EXCLUDED POINTS FOR PATTERN:  1
+
+ => R-Factors:   3.23      3.87     Chi2:  3.98     DW-Stat.:  0.3485   Patt#:  1
+ => Expected :            1.94                                1.8842
+ => Deviance : 0.197E+04     Dev*:  0.6842    
+ => GoF-index:  2.0         Sqrt(Residual/N)
+ => N-P+C:  2880
+
+ =>    SumYdif       SumYobs      SumYcal      SumwYobsSQ     Residual    Condition
+     0.3507E+05    0.1086E+07    0.1084E+07    0.7634E+07    0.1146E+05     0.000    
+
+
+ => Conventional Rietveld Rp,Rwp,Re and Chi2:   7.66      7.23      3.63      3.978    
+ => (Values obtained using Ynet, but true sigma(y))
+ =>  SumYnet, Sum(w Ynet**2):     0.4579E+06    0.2190E+07
+
+ => N-sigma of the GoF:      112.990
+
+ ==> RELIABILITY FACTORS FOR POINTS WITH BRAGG CONTRIBUTIONS FOR PATTERN:  1
+
+ => R-Factors:   3.18      3.86     Chi2:  4.11     DW-Stat.:  0.3534   Patt#:
+ => Expected :            1.90                                1.8814
+ => Deviance : 0.184E+04     Dev*:  0.6705    
+ => GoF-index:  2.0         Sqrt(Residual/N)
+ => N-P+C:  2748
+
+ =>    SumYdif       SumYobs      SumYcal      SumwYobsSQ     Residual    Condition
+     0.3370E+05    0.1059E+07    0.1058E+07    0.7589E+07    0.1130E+05     0.000    
+
+
+ => Conventional Rietveld Rp,Rwp,Re and Chi2:   7.38      7.18      3.54      4.111    
+ => (Values obtained using Ynet, but true sigma(y))
+ =>  SumYnet, Sum(w Ynet**2):     0.4569E+06    0.2190E+07
+
+ => N-sigma of the GoF:      115.331
+
+ => Global user-weigthed Chi2 (Bragg contrib.):   4.17    
+
+ => ---------> Pattern#  1
+ => Phase:  1
+ =>    Bragg R-factor:  4.17    
+ =>    RF-factor     :  2.72    
+
+ --------------------------------------------------------------------------------------------------------------------------------------------------------
+ Pattern#  1 Phase No.:   1 Phase name: pbso4
+ --------------------------------------------------------------------------------------------------------------------------------------------------------
+
+   No.  Code     H   K   L  Mult     Hw         2theta      Icalc       Iobs      Sigma      HwG     HwL       ETA       d-hkl        CORR
+
+      1   1      1   0   1     4  0.633539      20.475       34.2       21.6      4.831  0.583360  0.093223  0.191029  5.378905     64.338661
+      2   1      0   1   1     4  0.617289      25.909       11.3        1.8      2.177  0.566580  0.094135  0.197613  4.264523     40.836792
+      3   1      2   0   0     2  0.616823      26.065        2.2        0.2      0.517  0.566096  0.094164  0.197813  4.239466     20.185484
+      4   1      1   1   1     8  0.607827      29.065       35.5       29.4      2.115  0.556748  0.094771  0.201809  3.809791     65.624962
+      5   1      2   0   1     4  0.603152      30.622       78.0       67.7      1.749  0.551873  0.095115  0.203987  3.620429     29.739172
+      6   1      0   0   2     2  0.599314      31.898      205.6      204.9      2.011  0.547862  0.095412  0.205828  3.479161     13.774653
+      7   1      2   1   0     4  0.595005      33.328      448.8      447.1      2.609  0.543350  0.095761  0.207953  3.333846     25.388567
+      8   1      1   0   2     4  0.591295      34.556      101.4       97.7      1.608  0.539458  0.096074  0.209833  3.218727     23.743055
+      9   1      2   1   1     8  0.583654      37.080      677.2      662.7      3.114  0.531417  0.096761  0.213858  3.006575     41.728596
+     10   1      1   1   2     8  0.573357      40.464      674.2      645.1      2.799  0.520531  0.097772  0.219617  2.764407     35.645683
+     11   1      0   2   0     2  0.570196      41.499      299.0      275.4      1.641  0.517177  0.098102  0.221466  2.698428      8.519807
+     12   1      2   0   2     4  0.569752      41.644      106.0       97.7      0.703  0.516706  0.098149  0.221728  2.689452     16.934570
+     13   1      3   0   1     4  0.566130      42.826        4.3        3.3      0.431  0.512854  0.098541  0.223901  2.618549     16.117529
+     14   1      1   2   1     8  0.554188      46.702      428.3      424.2      2.124  0.500101  0.099923  0.231441  2.411936     27.732462
+     15   1      2   1   2     8  0.553882      46.801      128.2      125.9      0.632  0.499773  0.099961  0.231642  2.407119     27.632120
+     16   1      3   1   1     8  0.550532      47.882      143.4      151.2      1.436  0.496179  0.100375  0.233870  2.355883     26.577982
+     17   1      2   2   0     4  0.544988      49.664      400.4      401.6      1.889  0.490217  0.101085  0.237665  2.276417     12.495414
+     18   1      1   0   3     4  0.542085      50.594      268.3      278.5      1.492  0.487086  0.101469  0.239708  2.237243     12.114957
+     19   1      3   0   2     4  0.538713      51.672      568.1      600.9      1.971  0.483444  0.101927  0.242129  2.193696     11.700440
+     20   1      2   2   1     8  0.536287      52.445      949.9      968.6      2.443  0.480818  0.102264  0.243905  2.163579     22.837931
+     21   1      0   2   2     4  0.533677      53.276      154.9      161.3      0.706  0.477989  0.102633  0.245847  2.132262     11.130809
+     22   1      0   1   3     4  0.533567      53.311      141.4      146.8      0.643  0.477870  0.102648  0.245929  2.130972     11.119038
+     23   1      4   0   0     2  0.532607      53.616       77.2       77.9      0.545  0.476827  0.102786  0.246652  2.119733      5.508416
+     24   1      1   2   2     8  0.528010      55.073      597.5      608.5      1.317  0.471830  0.103459  0.250177  2.067877     21.106087
+     25   1      1   1   3     8  0.527903      55.107      686.1      697.5      1.494  0.471713  0.103475  0.250261  2.066700     21.085340
+     26   1      2   0   3     4  0.524930      56.046      107.4      108.6      0.285  0.468474  0.103923  0.252599  2.034812     10.264069
+     27   1      3   1   2     8  0.524684      56.123      427.3      432.3      1.036  0.468205  0.103960  0.252794  2.032225     20.483376
+     28   1      4   0   1     4  0.524255      56.259      566.0      570.6      1.443  0.467737  0.104026  0.253136  2.027732     10.202885
+     29   1      4   1   0     4  0.518833      57.965      394.3      436.8      1.967  0.461808  0.104872  0.257539  1.973002      9.738140
+     30   1      2   2   2     8  0.511543      60.247       37.9       49.5      0.669  0.453803  0.106063  0.263709  1.904896     18.361048
+     31   1      2   1   3     8  0.511440      60.279       17.0       22.0      0.282  0.453690  0.106081  0.263798  1.903976     18.346310
+     32   1      4   1   1     8  0.510788      60.483       30.0       38.2      0.612  0.452972  0.106190  0.264365  1.898172     18.253483
+     33   1      3   2   1     8  0.508621      61.158        1.8        4.1      0.379  0.450582  0.106558  0.266267  1.879199     17.952421
+     34   1      4   0   2     4  0.500255      63.756       18.6       17.8      0.630  0.441323  0.108033  0.273868  1.810215      8.444577
+     35   1      3   0   3     4  0.498035      64.443      241.5      251.0      1.792  0.438857  0.108439  0.275956  1.792968      8.315581
+     36   1      0   3   1     4  0.491103      66.582       52.7       50.2      0.762  0.431124  0.109750  0.282684  1.741687      7.941528
+     37   1      0   0   4     2  0.490807      66.673       20.3       19.3      0.270  0.430793  0.109807  0.282978  1.739581      3.963235
+     38   1      1   2   3     8  0.488341      67.432      157.1      149.4      1.021  0.428032  0.110290  0.285453  1.722285     15.607591
+     39   1      4   1   2     8  0.487465      67.701       70.6       69.1      0.560  0.427049  0.110463  0.286342  1.716243     15.522665
+     40   1      1   3   1     8  0.485971      68.160        0.0        0.0      0.000  0.425371  0.110762  0.287872  1.706066     15.380571
+     41   1      1   0   4     4  0.485678      68.251        0.2        0.2      0.003  0.425042  0.110821  0.288174  1.704085      7.676530
+     42   1      3   2   2     8  0.485395      68.338        0.0        0.0      0.000  0.424724  0.110878  0.288466  1.702181     15.326638
+     43   1      3   1   3     8  0.485297      68.368       79.4       68.1      1.057  0.424614  0.110898  0.288567  1.701524     15.317544
+     44   1      4   2   0     4  0.480005      69.991        4.8        3.4      0.533  0.418650  0.111986  0.294136  1.666923      7.422614
+     45   1      2   3   0     4  0.478280      70.520       10.1        8.1      0.791  0.416700  0.112351  0.295997  1.656028      7.349716
+     46   1      5   0   1     4  0.476919      70.936        0.2        0.1      0.058  0.415160  0.112641  0.297480  1.647565      7.293590
+     47   1      1   1   4     8  0.473203      72.074        1.0        1.0      0.077  0.410941  0.113449  0.301605  1.625002     14.292171
+     48   1      2   2   3     8  0.473147      72.091        4.5        4.5      0.327  0.410878  0.113461  0.301668  1.624668     14.287844
+     49   1      4   2   1     8  0.472540      72.277        9.9        9.8      0.417  0.410187  0.113595  0.302352  1.621057     14.241238
+     50   1      2   3   1     8  0.470836      72.799       62.1       55.7      1.043  0.408245  0.113975  0.304290  1.611032     14.112686
+     51   1      2   0   4     4  0.470549      72.886        0.0        0.0      0.000  0.407919  0.114040  0.304618  1.609364      7.045712
+     52   1      5   1   1     8  0.464620      74.701        0.3        0.3      0.003  0.401136  0.115404  0.311562  1.575772     13.670866
+     53   1      1   3   2     8  0.463630      75.004      461.1      441.4      1.716  0.399999  0.115638  0.312751  1.570331     13.604156
+     54   1      4   0   3     4  0.462600      75.319      223.1      228.5      1.061  0.398815  0.115883  0.313997  1.564726      6.767921
+     55   1      2   1   4     8  0.458378      76.614        9.9        8.9      0.505  0.393945  0.116909  0.319209  1.542251     13.266294
+     56   1      5   0   2     4  0.454905      77.680       59.2       54.4      1.019  0.389920  0.117780  0.323623  1.524355      6.528385
+     57   1      4   2   2     8  0.450687      78.979       36.2       31.6      0.526  0.385007  0.118873  0.329146  1.503288     12.816160
+     58   1      4   1   3     8  0.450595      79.008       13.5       11.8      0.182  0.384900  0.118897  0.329268  1.502835     12.811070
+     59   1      2   3   2     8  0.449047      79.486        0.0        0.0      0.000  0.383089  0.119309  0.331344  1.495281     12.726495
+     60   1      3   2   3     8  0.448652      79.608      385.0      366.7      1.613  0.382626  0.119415  0.331878  1.493366     12.705193
+
+   No.  Code     H   K   L  Mult     Hw         2theta      Icalc       Iobs      Sigma      HwG     HwL       ETA       d-hkl        CORR
+
+     61   1      3   3   1     8  0.446439      80.293        9.0        8.4      0.139  0.380029  0.120015  0.334899  1.482756     12.588219
+     62   1      3   0   4     4  0.446166      80.378       34.3       31.8      0.575  0.379707  0.120090  0.335277  1.481455      6.287002
+     63   1      5   1   2     8  0.443078      81.338       63.3       64.2      0.776  0.376067  0.120950  0.339597  1.466961     12.417464
+     64   1      0   2   4     4  0.442026      81.666       53.2       54.2      0.725  0.374823  0.121249  0.341095  1.462095      6.182842
+     65   1      1   2   4     8  0.437338      83.136      263.8      252.2      1.573  0.369249  0.122618  0.347937  1.440830     12.144205
+     66   1      3   1   4     8  0.434577      84.008        4.7        4.8      0.172  0.365945  0.123455  0.352101  1.428608     12.020555
+     67   1      0   3   3     4  0.432952      84.525      120.3      108.9      1.043  0.363991  0.123959  0.354602  1.421508      5.974994
+     68   1      6   0   0     2  0.431020      85.142       45.1       45.3      0.598  0.361660  0.124571  0.357625  1.413155      2.967052
+     69   1      5   2   1     8  0.429390      85.665       97.6       97.1      0.687  0.359686  0.125097  0.360220  1.406179     11.800954
+     70   1      1   3   3     8  0.428393      85.986      165.8      158.1      0.972  0.358475  0.125423  0.361827  1.401942     11.760576
+     71   1      3   3   2     8  0.425804      86.827      186.8      179.0      1.209  0.355316  0.126290  0.366078  1.391034     11.658326
+     72   1      6   0   1     4  0.424330      87.309        0.4        0.4      0.010  0.353509  0.126797  0.368549  1.384884      5.800889
+     73   1      2   2   4     8  0.423684      87.522        2.3        2.3      0.067  0.352715  0.127021  0.369643  1.382204     11.577389
+     74   1      1   0   5     4  0.421525      88.236      158.5      155.3      0.595  0.350050  0.127787  0.373359  1.373290      5.748706
+     75   1      4   3   0     4  0.421112      88.374      400.7      399.3      1.192  0.349538  0.127936  0.374080  1.371593      5.741196
+     76   1      5   0   3     4  0.420463      88.590       37.9       38.4      0.126  0.348734  0.128171  0.375218  1.368935      5.729496
+     77   1      6   1   0     4  0.420007      88.743      220.2      224.8      0.964  0.348167  0.128338  0.376025  1.367066      5.721319
+     78   1      4   2   3     8  0.416700      89.862       39.3       36.2      0.320  0.344033  0.129583  0.381996  1.353616     11.327360
+     79   1      0   4   0     2  0.415612      90.236      481.6      457.1      1.418  0.342662  0.130006  0.384014  1.349214      2.822648
+     80   1      2   3   3     8  0.415252      90.360        0.5        0.5      0.001  0.342208  0.130148  0.384687  1.347762     11.278565
+     81   1      0   1   5     4  0.415207      90.375      134.1      128.7      0.424  0.342152  0.130166  0.384771  1.347582      5.638539
+     82   1      4   3   1     8  0.414741      90.537        0.2        0.2      0.001  0.341562  0.130351  0.385649  1.345699     11.261572
+     83   1      4   0   4     4  0.414499      90.621        6.3        6.3      0.029  0.341256  0.130447  0.386105  1.344726      5.626800
+     84   1      6   1   1     8  0.413679      90.906      253.0      269.6      1.289  0.340216  0.130777  0.387666  1.341423     11.226700
+     85   1      1   1   5     8  0.411056      91.832        0.1        0.1      0.003  0.336864  0.131864  0.392776  1.330878     11.142753
+     86   1      5   2   2     8  0.410146      92.159        3.8        5.0      0.056  0.335693  0.132253  0.394592  1.327224     11.114368
+     87   1      5   1   3     8  0.410068      92.186       58.8       77.5      0.841  0.335593  0.132287  0.394748  1.326913     11.111967
+     88   1      2   0   5     4  0.408906      92.607       18.4       25.4      0.513  0.334090  0.132794  0.397105  1.322246      5.538144
+     89   1      6   0   2     4  0.405685      93.802       50.3       50.7      0.712  0.329876  0.134267  0.403866  1.309274      5.490220
+     90   1      1   4   1     8  0.405536      93.859        7.8        7.8      0.100  0.329679  0.134337  0.404187  1.308673     10.976118
+     91   1      4   1   4     8  0.404586      94.220       35.9       35.1      0.427  0.328422  0.134793  0.406253  1.304831     10.948772
+     92   1      3   2   4     8  0.403059      94.812      483.5      482.5      1.826  0.326383  0.135548  0.409653  1.298619     10.905539
+     93   1      2   4   0     4  0.399916      96.074        2.8        2.7      0.025  0.322119  0.137201  0.416972  1.285675      5.409767
+     94   1      2   1   5     8  0.399577      96.214      200.5      200.2      1.341  0.321653  0.137388  0.417791  1.284263     10.810495
+     95   1      4   3   2     8  0.397621      97.044        0.0        0.0      0.000  0.318934  0.138508  0.422642  1.276015     10.759143
+     96   1      6   1   2     8  0.396770      97.416        0.0        0.0      0.000  0.317735  0.139020  0.424827  1.272367     10.737239
+     97   1      3   3   3     8  0.396207      97.667      250.1      257.9      1.513  0.316934  0.139367  0.426302  1.269930     10.722881
+     98   1      2   4   1     8  0.394919      98.254        6.2        8.1      0.230  0.315084  0.140192  0.429764  1.264276     10.690462
+     99   1      0   4   2     4  0.393510      98.924       37.3       43.2      0.719  0.313022  0.141147  0.433714  1.257937      5.327826
+    100   1      6   2   0     4  0.392204      99.575      134.7      134.9      1.074  0.311070  0.142093  0.437556  1.251876      5.311974
+    101   1      3   0   5     4  0.391500      99.940       17.6       17.6      0.298  0.309997  0.142632  0.439711  1.248517      5.303533
+    102   1      1   4   2     8  0.390642     100.402       48.0       47.1      0.789  0.308668  0.143320  0.442432  1.244317     10.586674
+    103   1      1   3   4     8  0.389242     101.202       63.9       68.6      0.904  0.306436  0.144535  0.447136  1.237149     10.553777
+    104   1      6   2   1     8  0.388310     101.776        9.1        9.9      0.307  0.304896  0.145424  0.450496  1.232095     10.532085
+    105   1      1   2   5     8  0.386914     102.724       58.1       57.5      0.417  0.302473  0.146923  0.456002  1.223909     10.499743
+    106   1      5   2   3     8  0.386429     103.087      829.3      835.5      2.300  0.301588  0.147509  0.458095  1.220823     10.488488
+    107   1      3   1   5     8  0.385776     103.614       78.4       81.0      0.602  0.300346  0.148370  0.461116  1.216391     10.473258
+    108   1      5   3   1     8  0.385583     103.780        6.4        6.2      0.068  0.299966  0.148644  0.462062  1.215006     10.468730
+    109   1      5   0   4     4  0.385485     103.866       18.2       17.0      0.250  0.299771  0.148787  0.462552  1.214290      5.233217
+    110   1      6   0   3     4  0.384565     104.778       13.3       13.0      0.255  0.297806  0.150318  0.467682  1.206810      5.222150
+    111   1      2   4   2     8  0.384474     104.882       32.8       32.9      0.550  0.297593  0.150495  0.468260  1.205968     10.442025
+    112   1      4   2   4     8  0.384225     105.180       18.2       19.0      0.498  0.296996  0.151008  0.469915  1.203559     10.435771
+    113   1      2   3   4     8  0.383853     105.697        2.7        4.4      0.261  0.296014  0.151904  0.472744  1.199439     10.425953
+    114   1      3   4   1     8  0.383847     105.706        1.3        2.1      0.126  0.295997  0.151920  0.472793  1.199368     10.425793
+    115   1      7   0   1     4  0.383431     106.474        2.1        2.8      0.214  0.294658  0.153280  0.476926  1.193331      5.206766
+    116   1      2   2   5     8  0.383189     107.249      147.2      155.3      1.287  0.293467  0.154683  0.480983  1.187361     10.403988
+    117   1      5   1   4     8  0.383141     107.603       54.4       60.4      0.652  0.292978  0.155335  0.482796  1.184673     10.400568
+    118   1      4   3   3     8  0.383145     108.143       21.8       19.7      0.379  0.292304  0.156344  0.485510  1.180614     10.396487
+    119   1      6   2   2     8  0.383203     108.502      116.6      118.5      1.245  0.291905  0.157024  0.487279  1.177942     10.394528
+    120   1      6   1   3     8  0.383209     108.532        1.1        1.1      0.012  0.291874  0.157080  0.487423  1.177724     10.394397
+
+   No.  Code     H   K   L  Mult     Hw         2theta      Icalc       Iobs      Sigma      HwG     HwL       ETA       d-hkl        CORR
+
+    121   1      7   1   1     8  0.384160     110.264       24.0       23.8      0.308  0.290565  0.160470  0.495452  1.165186     10.393799
+    122   1      4   0   5     4  0.384402     110.524      252.2      260.1      1.525  0.290460  0.160995  0.496582  1.163350      5.197471
+    123   1      5   3   2     8  0.384454     110.576        2.3        2.4      0.014  0.290442  0.161101  0.496807  1.162981     10.395210
+    124   1      0   0   6     2  0.384967     111.043       72.9       71.0      0.775  0.290327  0.162054  0.498771  1.159720      2.599547
+    125   1      1   4   3     8  0.385808     111.673       94.8       92.4      1.001  0.290307  0.163365  0.501308  1.155374     10.403875
+    126   1      3   4   2     8  0.387324     112.579      242.3      229.6      1.437  0.290566  0.165295  0.504702  1.149246     10.415416
+    127   1      1   0   6     4  0.387387     112.612        6.5        6.1      0.039  0.290582  0.165368  0.504821  1.149022      5.207958
+    128   1      7   0   2     4  0.388988     113.381      217.2      236.7      1.498  0.291096  0.167052  0.507443  1.143931      5.214491
+    129   1      3   3   4     8  0.389106     113.433        1.9        2.1      0.014  0.291140  0.167167  0.507611  1.143591     10.429970
+    130   1      4   4   0     4  0.391185     114.263       34.3       30.9      0.802  0.292024  0.169037  0.510148  1.138209      5.223786
+    131   1      4   1   5     8  0.391608     114.416        0.8        0.7      0.024  0.292224  0.169387  0.510583  1.137228     10.451192
+    132   1      3   2   5     8  0.393539     115.065       45.6       45.9      1.022  0.293203  0.170893  0.512314  1.133108     10.467874
+    133   1      2   4   3     8  0.398486     116.461       51.5       55.0      0.437  0.296059  0.174241  0.515364  1.124479     10.510989
+    134   1      1   1   6     8  0.398910     116.567        0.6        0.6      0.004  0.296321  0.174503  0.515558  1.123833     10.514690
+    135   1      4   4   1     8  0.399279     116.658      324.7      332.7      1.764  0.296551  0.174728  0.515721  1.123280     10.517918
+    136   1      7   1   2     8  0.402289     117.361      115.0      130.6      1.193  0.298482  0.176486  0.516828  1.119068     10.544188
+    137   1      2   0   6     4  0.402630     117.436        4.5        5.2      0.055  0.298706  0.176677  0.516931  1.118621      5.273578
+    138   1      6   3   0     4  0.408857     118.693      153.7      154.0      1.423  0.302961  0.179936  0.518234  1.111282      5.300619
+    139   1      5   2   4     8  0.412737     119.386       87.8       97.9      1.140  0.305732  0.181792  0.518599  1.107337     10.634718
+    140   1      6   2   3     8  0.419055     120.404       35.0       36.9      0.412  0.310390  0.184608  0.518677  1.101656     10.688866
+    141   1      0   3   5     4  0.420160     120.571      140.9      145.1      1.257  0.311220  0.185078  0.518637  1.100740      5.349147
+    142   1      6   3   1     8  0.424440     121.190       32.1       32.0      0.399  0.314470  0.186848  0.518363  1.097376     10.734671
+    143   1      6   0   4     4  0.425143     121.287        0.6        0.7      0.007  0.315009  0.187131  0.518301  1.096848      5.370316
+    144   1      2   1   6     8  0.427205     121.569      261.6      273.9      1.683  0.316597  0.187952  0.518095  1.095340     10.758071
+    145   1      1   3   5     8  0.432681     122.278       15.7       16.0      0.135  0.320864  0.190060  0.517393  1.091580     10.804203
+    146   1      7   2   1     8  0.432996     122.318      118.7      121.0      0.981  0.321111  0.190179  0.517346  1.091374     10.806847
+    147   1      5   3   3     8  0.436105     122.698      136.4      144.9      1.322  0.323564  0.191333  0.516855  1.089389     10.832910
+    148   1      4   4   2     8  0.449441     124.189       10.2        8.9      0.421  0.334265  0.196018  0.514229  1.081789     10.943862
+    149   1      3   4   3     8  0.456863     124.939      222.1      197.2      1.563  0.340324  0.198475  0.512499  1.078075     11.005113
+    150   1      4   3   4     8  0.458983     125.145       21.0       19.6      0.155  0.342065  0.199161  0.511979  1.077069     11.022548
+    151   1      5   0   5     4  0.461772     125.410       64.1       64.3      0.595  0.344363  0.200053  0.511280  1.075781      5.522725
+    152   1      6   1   4     8  0.463786     125.598        8.1        8.3      0.077  0.346027  0.200691  0.510766  1.074873     11.061970
+    153   1      7   0   3     4  0.466490     125.845       96.3       97.7      0.863  0.348267  0.201538  0.510064  1.073684      5.542056
+    154   1      3   0   6     4  0.468290     126.007       45.3       45.2      0.507  0.349761  0.202098  0.509590  1.072909      5.549419
+    155   1      4   2   5     8  0.479685     126.986      238.7      253.5      1.749  0.359278  0.205552  0.506487  1.068298     11.191747
+    156   1      0   5   1     4  0.484150     127.350       42.3       40.0      0.309  0.363031  0.206870  0.505234  1.066615      5.614014
+    157   1      0   4   4     4  0.485467     127.455       19.1       17.1      0.141  0.364140  0.207255  0.504861  1.066131      5.619358
+    158   1      0   2   6     4  0.487242     127.596        0.2        0.2      0.002  0.365637  0.207772  0.504357  1.065486      5.626559
+    159   1      2   3   5     8  0.487443     127.612      139.7      117.1      1.166  0.365806  0.207830  0.504300  1.065414     11.254739
+    160   1      8   0   0     2  0.503858     128.845      233.2      239.5      1.741  0.379725  0.212489  0.499556  1.059867      2.846879
+    161   1      6   3   2     8  0.507926     129.133        0.1        0.2      0.001  0.383194  0.213615  0.498367  1.058593     11.420338
+    162   1      1   5   1     8  0.508961     129.206        8.4        8.6      0.062  0.384077  0.213899  0.498064  1.058275     11.428679
+    163   1      1   4   4     8  0.510514     129.314        3.9        3.9      0.028  0.385403  0.214325  0.497610  1.057801     11.441193
+    164   1      1   2   6     8  0.512607     129.458      199.4      199.9      1.442  0.387192  0.214897  0.496996  1.057172     11.458055
+    165   1      5   1   5     8  0.519969     129.954       28.2       26.4      0.276  0.393498  0.216888  0.494837  1.055025     11.517322
+    166   1      7   2   2     8  0.526509     130.381      176.7      177.5      1.164  0.399115  0.218633  0.492921  1.053202     11.569908
+    167   1      7   1   3     8  0.527079     130.418      120.6      121.5      0.812  0.399605  0.218785  0.492754  1.053046     11.574492
+    168   1      3   1   6     8  0.529788     130.590       24.5       24.4      0.232  0.401936  0.219501  0.491962  1.052316     11.596260
+    169   1      8   0   1     4  0.547646     131.679       34.5       29.4      0.585  0.417350  0.224141  0.486776  1.047782      5.869799
+    170   1      2   5   0     4  0.555183     132.116      180.8      168.8      2.047  0.423878  0.226062  0.484614  1.046002      5.900020
+    171   1      5   4   1     8  0.564679     132.648        1.1        1.1      0.061  0.432119  0.228456  0.481917  1.043860     11.876164
+    172   1      8   1   0     4  0.583034     133.627        1.0        0.9      0.119  0.448094  0.233005  0.476804  1.040001      6.011636
+    173   1      2   5   1     8  0.612992     135.104      222.9      206.6      2.019  0.474271  0.240250  0.468779  1.034380     12.263480
+    174   1      2   4   4     8  0.615525     135.222        0.0        0.0      0.000  0.476489  0.240854  0.468120  1.033938     12.283800
+    175   1      2   2   6     8  0.618940     135.381      141.6      131.2      1.353  0.479480  0.241666  0.467236  1.033350     12.311207
+    176   1      8   1   1     8  0.648591     136.695        6.7        7.0      0.257  0.505499  0.248634  0.459798  1.028576     12.549397
+    177   1      3   3   5     8  0.668298     137.513      324.3      317.1      2.506  0.522830  0.253192  0.455087  1.025696     12.708014
+    178   1      1   5   2     8  0.685380     138.190       41.8       38.4      0.467  0.537872  0.257104  0.451151  1.023364     12.845731
+    179   1      4   4   3     8  0.697381     138.650      240.6      241.9      2.668  0.548450  0.259833  0.448467  1.021807     12.942617
+    180   1      4   0   6     4  0.734225     139.984        0.1        0.2      0.012  0.580964  0.268124  0.440623  1.017406      6.620392
+
+   No.  Code     H   K   L  Mult     Hw         2theta      Icalc       Iobs      Sigma      HwG     HwL       ETA       d-hkl        CORR
+
+    181   1      6   2   4     8  0.745943     140.386       13.0       15.5      0.829  0.591316  0.270737  0.438249  1.016113     13.335858
+    182   1      8   0   2     4  0.767369     141.098       45.3       48.2      1.678  0.610256  0.275489  0.434052  1.013866      6.755001
+    183   1      5   4   2     8  0.804339     142.256       56.1       53.9      2.073  0.642965  0.283621  0.427222  1.010311     13.811432
+    184   1      5   3   4     8  0.849243     143.559        0.5        0.6      0.077  0.682731  0.293402  0.419572  1.006463     14.179140
+    185   1      6   3   3     8  0.906233     145.073       27.7       26.1      0.585  0.733245  0.305700  0.410770  1.002192     14.648298
+    186   1      2   5   2     8  0.913212     145.249      144.4      136.5      2.424  0.739433  0.307198  0.409756  1.001709     14.705939
+    187   1      4   1   6     8  0.942139     145.957        5.1        4.6      0.066  0.765088  0.313394  0.405688  0.999795     14.945243
+    188   1      5   2   5     8  0.950028     146.145      133.5      121.6      1.556  0.772086  0.315080  0.404615  0.999295     15.010627
+    189   1      3   5   1     8  0.972570     146.669       81.0       77.9      0.748  0.792085  0.319889  0.401634  0.997917     15.197703
+    190   1      7   2   3     8  0.977695     146.786       89.3       87.9      0.831  0.796633  0.320980  0.400972  0.997614     15.240300
+    191   1      3   4   4     8  0.979281     146.822       16.3       16.2      0.154  0.798040  0.321318  0.400769  0.997521     15.253491
+    192   1      3   2   6     8  0.988381     147.026      181.6      187.9      1.952  0.806114  0.323254  0.399612  0.996992     15.329157
+    193   1      8   1   2     8  0.998179     147.243        6.0        6.4      0.082  0.814809  0.325338  0.398388  0.996435     15.410711
+    194   1      7   3   1     8  1.035289     148.038       14.2       15.5      0.376  0.847744  0.333210  0.393935  0.994432     15.720213
+    195   1      7   0   4     4  1.042923     148.196       40.4       44.0      1.122  0.854521  0.334827  0.393053  0.994039      7.892009
+    196   1      6   0   5     4  1.094053     149.215       78.8       87.0      2.386  0.899910  0.345629  0.387431  0.991566      8.106151
+    197   1      1   0   7     4  1.197285     151.076        0.0        0.1      0.002  0.991575  0.367337  0.377402  0.987284      8.541019
+    198   1      8   2   0     4  1.218590     151.431      140.7      177.8      5.037  1.010496  0.371804  0.375524  0.986501      8.631167
+
+     -----------------------------------------------------
+     BRAGG R-Factors and weight fractions for Pattern #  1
+     -----------------------------------------------------
+
+ => Phase:  1     pbso4
+ => Bragg R-factor:   4.17       Vol:  318.410( 0.000)  Fract(%):  100.00( 0.00)
+ => Rf-factor=  2.72             ATZ:        1213.030   Brindley:  1.0000
+
+     -----------------------------------------------------------------
+      SYMBOLIC NAMES AND FINAL VALUES AND SIGMA OF REFINED PARAMETERS:
+     -----------------------------------------------------------------
+
+
+ ------------------------------------------------------------------
+ => Number of bytes for floating point variables: 4
+ => Dimensions of dynamic allocated arrays in this run of FullProf:
+ ------------------------------------------------------------------
+
+ => Total approximate array memory (dynamic + static): 132451053 bytes
+
+    MaxPOINT=    80000 Max.num. of points(+int. Inten.)/diffraction pattern       
+    MaxREFLT=    25000 Max.num. of reflections/diffraction pattern               
+    MaxPARAM=      500 Max.num. of refinable parameters                          
+    MaxOVERL=     9000 Max.num. of overlapping reflections                       
+
+ ----------------------------------------------------------
+ => Number of bytes for floating point arrays: 4
+ => Dimensions of fixed arrays in this release of FullProf:
+ ----------------------------------------------------------
+
+    NPATT   =       80 Max.num. of powder diffraction patterns                    
+    NATS    =      830 Max.num. of atoms (all kind) in asymmetric unit            
+    MPAR    =     1800 Max.num. of non atomic parameters/phase                    
+    IEXCL   =       30 Max.num. of excluded regions                               
+    IBACP   =      377 Max.num. of background points for interpolation            
+    NPHT    =       16 Max.num. of phases                                         
+    NMAGM   =        8 Max.num. of rotation-matrices sets for magnetic structure  
+    NBASIS  =       12 Max.num. of basis functions associated to a single atom    
+    NIREPS  =        9 Max.num. of irreducible representations to be combined     
+    N_EQ    =      384 Max.num. of user-supplied symmetry operators/propagation vectors
+    NGL     =      400 Max.num. of global parameters/diffraction pattern          
+    N_LINC  =       50 Max.num. of global linear restraints                        
+    NAT_P   =       80 Max.num. of atomic parameters per atom                     
+    NCONST  =     3500 Max.num. of slack constraints per phase                    
+    N_SPE   =       30 Max.num. of different chemical species                     
+    N_FORM  =       60 Max.num. of scattering factor values in a table            
+    NPR     =      150 Max.num. of points defining a numerical profile            
+    INPR    =       25 Max.num. of different numerical peak shapes                
+    NPRC    =      150 Max.num. of terms in the table for correcting intensities  
+    NSOL    =       10 Max.num. of solutions to be stored in Montecarlo searchs   
+
+ 
+              CPU Time:     0.117 seconds
+                            0.002 minutes
+
+ => Run finished at:     Date: 05/08/2025  Time: 07:56:54.610                              

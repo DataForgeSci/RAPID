@@ -1,0 +1,1319 @@
+
+
+        **********************************************************
+        ** PROGRAM FullProf.2k (Version 5.90 - Dec2016-ILL JRC) **
+        **********************************************************
+                       M U L T I -- P A T T E R N                 
+            Rietveld, Profile Matching & Integrated Intensity     
+                 Refinement of X-ray and/or Neutron Data
+
+
+    Date: 10/06/2024  Time: 18:44:51.575                              
+
+ => PCR file code: Y2O3
+ => DAT file code: Y2O3.dat             -> Relative contribution: 1.0000                                                            
+
+ ==> CONDITIONS OF THIS RUN FOR PATTERN No.:  1
+
+ => Global Refinement of X-ray powder diffraction data                                                                              
+ => Global Refinement of X-ray powder diffraction data                                                                              
+    Bragg-Brentano(X-rays) or Debye-Scherrer geometry(Neutrons)
+ => Title:   O3 Y2
+
+ => Number of phases:    1
+ => Number of excluded regions:    2
+ => Number of scattering factors supplied:    0
+ => March-Dollase model for preferred orientation
+ => Conventional weights: w=1.0/Variance(yobs)
+ => Asymmetry correction as in J.Appl.Cryst. 26,128(1993)
+ => Background refined by polynomial function
+ => The    5th default profile function was selected
+ => Pseudo-Voigt function (ETA variable)
+                 X-parameter correspond to: ETA=ETA0+X*2theta
+                       pV(x)= ETA*L(x)+(1-ETA)*G(x)
+
+ ==> INPUT/OUTPUT OPTIONS:
+
+ => Generate file *.PRF for plot
+ => Output Integrated Intensities
+ => Generate new input file *.PCR
+
+ => X-Y type of data: 2theta/TOF/E(Kev) Intens sigma for pattern:  1
+ => Plot pattern at each cycle
+ => Wavelengths:  1.54056 1.54439
+ => Alpha2/Alpha1 ratio:   0.5000
+ => Cos(Monochromator angle)=   0.9100
+ => Asymmetry correction for angles lower than   60.000 degrees
+ => Absorption correction (AC), muR-eff =   0.0000  0.0000
+ => Base of peaks: 2.0*HW*    8.00
+
+ => Number of cycles:   10
+ => Relaxation factors ==>    for coordinates:  1.00
+ => for anisotropic temperature factors:  1.00
+ => for halfwidth/strain/size parameters:  1.00
+ => for lattice constants and propagation vectors:  1.00
+ => EPS-value for convergence:    0.1
+
+ => Excluded regions for Pattern#  1
+    From     to
+      1.0000     20.0000
+    100.0000    160.0000
+
+ => Number of Least-Squares parameters varied:     6
+
+ =>--------------------------->
+ =>------->  PATTERN number:  1
+ =>--------------------------->
+ => Global parameters and codes ==>
+ => Zero-point:    -0.0437   31.0000
+ => Background parameters and codes ==>
+ => Origin of polynomial at 2theta/TOF/E(KeV):   40.000  
+  658.59     -36.221      0.0000      0.0000      0.0000      0.0000    
+       41.00       51.00        0.00        0.00        0.00        0.00
+ => Displacement peak-shift parameter and code:     0.00    0.00
+ => Transparency peak-shift parameter and code:     0.06   21.00
+
+ => Reading Intensity data  =>>
+
+ -> No recognizable heading in input data file X,Y,sigma
+    First 6 lines are considered as COMMENTS (except for TSAMP keyword)
+ -> COMMENT:   3.000    1643.000                                                                                                                 
+ -> COMMENT:   3.020    1571.000                                                                                                                 
+ -> COMMENT:   3.040    1569.000                                                                                                                 
+ -> COMMENT:   3.060    1619.000                                                                                                                 
+ -> COMMENT:   3.080    1554.000                                                                                                                 
+ -> COMMENT:   3.100    1531.000                                                                                                                 
+ ==> Angular range, step and number of points:
+     2Thmin:       3.120000  2Thmax:     150.000000  Step:       0.020004  No. of points:   7345
+ --------------------------------------------------------------------------------
+ => Phase  No. 1
+      O3 Y2                                                                 
+ --------------------------------------------------------------------------------
+ =>-------> Pattern#  1
+ => Crystal Structure Refinement
+ => The    7th profile function was selected for phase no.  1
+ => Preferred orientation vector:   0.0000  0.0000  1.0000
+
+ =>-------> Data for PHASE: 1
+ => Number of atoms:    3
+ => Number of distance  constraints:    0
+ => Number of angle     constraints:    0
+
+ => Symmetry information on space group: I a -3              
+ -> The multiplicity of the general position is:  48
+ -> The space group is Centric (-1 at origin)   
+ -> Lattice type  I: { 000; 1/2 1/2 1/2 }+                         
+ -> Reduced set of symmetry operators:
+
+  No.  IT   Symmetry symbol    Rotation part     Associated Translation
+   1: ( 1)   1            -->     ( x, y, z) + {  0.0000  0.0000  0.0000}
+   2: ( 4)   2 ( x, 0, 0) -->     ( x,-y,-z) + {  0.5000  0.5000  0.0000}
+   3: ( 3)   2 ( 0, y, 0) -->     (-x, y,-z) + {  0.0000  0.5000  0.5000}
+   4: ( 2)   2 ( 0, 0, z) -->     (-x,-y, z) + {  0.5000  0.0000  0.5000}
+   5: ( 9)  3- ( x, x, x) -->     ( y, z, x) + {  0.0000  0.0000  0.0000}
+   6: (12)  3- (-x, x,-x) -->     (-y,-z, x) + {  0.5000  0.0000  0.5000}
+   7: (11)  3- (-x,-x, x) -->     ( y,-z,-x) + {  0.5000  0.5000  0.0000}
+   8: (10)  3- ( x,-x,-x) -->     (-y, z,-x) + {  0.0000  0.5000  0.5000}
+   9: ( 5)  3+ ( x, x, x) -->     ( z, x, y) + {  0.0000  0.0000  0.0000}
+  10: ( 8)  3+ (-x,-x, x) -->     (-z, x,-y) + {  0.0000  0.5000  0.5000}
+  11: ( 7)  3+ ( x,-x,-x) -->     (-z,-x, y) + {  0.5000  0.0000  0.5000}
+  12: ( 6)  3+ (-x, x,-x) -->     ( z,-x,-y) + {  0.5000  0.5000  0.0000}
+
+
+        Information on Space Group: 
+        --------------------------- 
+
+ =>   Number of Space group: 206
+ =>  Hermann-Mauguin Symbol: I a -3
+ =>             Hall Symbol: -I 2b 2c 3
+ =>            Setting Type: IT (Generated from Hermann-Mauguin symbol)
+ =>          Crystal System: Cubic
+ =>              Laue Class: m-3
+ =>             Point Group: m-3
+ =>         Bravais Lattice: I
+ =>          Lattice Symbol: cI
+ =>  Reduced Number of S.O.:  12
+ =>    General multiplicity:  48
+ =>          Centrosymmetry: Centric (-1 at origin)
+ =>  Generators (exc. -1&L):   3
+ =>         Asymmetric unit:  0.000 <= x <=  0.500
+                              0.000 <= y <=  0.500
+                              0.000 <= z <=  0.250
+
+ => List of S.O. without inversion and lattice centring translations
+ => SYMM(  1): x,y,z                               => SYMM(  2): x+1/2,-y+1/2,-z
+ => SYMM(  3): -x,y+1/2,-z+1/2                     => SYMM(  4): -x+1/2,-y,z+1/2
+ => SYMM(  5): y,z,x                               => SYMM(  6): -y+1/2,-z,x+1/2
+ => SYMM(  7): y+1/2,-z+1/2,-x                     => SYMM(  8): -y,z+1/2,-x+1/2
+ => SYMM(  9): z,x,y                               => SYMM( 10): -z,x+1/2,-y+1/2
+ => SYMM( 11): -z+1/2,-x,y+1/2                     => SYMM( 12): z+1/2,-x+1/2,-y
+
+
+ => Initial parameters ==>
+ Atom    Ntyp                  X         Y         Z         B         occ.         in  fin  Spc  Mult
+                             B11       B22       B33       B12       B13       B23
+ Y1     Y                  0.25000   0.25000   0.25000   0.00000   0.16667           0    0    0    8
+                 Codes:    0.00000   0.00000   0.00000   0.00000   0.00000
+                 Betas:    0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+                 Codes:    0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+ Y2     Y                  0.96730   0.00000   0.25000   0.00000   0.50000           0    0    0   24
+                 Codes:    0.00000   0.00000   0.00000   0.00000   0.00000
+                 Betas:    0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+                 Codes:    0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+ O1     O                  0.39150   0.15380   0.38000   0.00000   1.00000           0    0    0   48
+                 Codes:    0.00000   0.00000   0.00000   0.00000   0.00000
+                 Betas:    0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+                 Codes:    0.00000   0.00000   0.00000   0.00000   0.00000   0.00000
+
+ => IT IS ASSUMED THAT THE FIRST GIVEN SITE IS FULLY OCCUPIED 
+    OR THE FIRST AND SECOND ATOMS ARE IN THE SAME SITE WITH TOTAL FULL OCCUPATION
+  (If this is not the case, change the order of atoms to obtain correct values for the content of the unit cell)
+    The given occupation factors have been obtained mutiplying m/M by   1.0000
+      -> Atom: Y   ,  Chemical element: Y   Atomic Mass:    88.9059
+      -> Atom: Y   ,  Chemical element: Y   Atomic Mass:    88.9059
+      -> Atom: O   ,  Chemical element: O   Atomic Mass:    15.9994
+ => The given value of ATZ is       3613.05 the program has calculated:        3613.05
+    The value of ATZ given in the input PCR file will be used for quantitative analysis
+ => The chemical content of the unit cell is: 
+       8.0000 Y    +  23.9995 Y    +  47.9990 O      
+ => The normalized site occupation numbers in % are: 
+     100.0000 Y1     :       99.9980 Y2     :       99.9980 O1       
+ => The density (volumic mass) of the compound is:    5.032 g/cm3
+
+ =>-------> PROFILE PARAMETERS FOR PATTERN:  1
+
+ => Overall scale factor:   0.708120E-04
+ => ETA (p-Voigt) OR M (Pearson VII):   0.0000
+ => Overall temperature factor:      0.00000
+ => Halfwidth U,V,W:      0.00413    -0.00762     0.00625
+ => X and Y parameters:       0.0190      0.0000
+ => Direct cell parameters:   10.6040  10.6040  10.6040  90.0000  90.0000  90.0000
+ => Preferred orientation parameters:   1.0000  0.0000
+ => Asymmetry parameters     :      0.00000     0.00000     0.00000     0.00000
+ => Strain parameters        :      0.00000     0.00000     0.00000
+ => Size   parameters        :      0.00000     0.00000
+ => Further shape parameters (S_L and D_L):   0.00000   0.00000
+    S_L is source width/detector distance
+    D_L is detector width/detector distance
+
+ ==> CODEWORDS FOR PROFILE PARAMETERS of PATTERN#  1
+
+ => Overall scale factor:   11.000
+ => ETA (p-Voigt) OR M (Pearson VII):    0.000
+ => Overall temperature factor:    0.000
+ => Halfwidth U,V,W:    0.000   0.000   0.000
+ => X and Y parameters:    0.000   0.000
+ => Direct cell parameters:   61.000  61.000  61.000   0.000   0.000   0.000
+ => Preferred orientation parameters:    0.000   0.000
+ => Asymmetry parameters     :    0.000   0.000   0.000   0.000
+ => Strain parameters        :    0.000   0.000   0.000
+ => Size   parameters        :    0.000   0.000
+
+ => Cell constraints according to Laue symmetry: m-3  
+
+        Metric information:
+        -------------------
+
+ => Direct cell parameters:
+
+         a =      10.6040      b =      10.6040      c =      10.6040
+     alpha =       90.000   beta =       90.000  gamma =       90.000
+                        Direct Cell Volume =    1192.3672
+
+ => Reciprocal cell parameters:
+
+         a*=     0.094304      b*=     0.094304      c*=     0.094304
+     alpha*=       90.000   beta*=       90.000  gamma*=       90.000
+                    Reciprocal Cell Volume =   0.00083867
+
+ => Direct and Reciprocal Metric Tensors:
+
+                   GD                                       GR
+    112.4450      0.0000      0.0000          0.008893    0.000000    0.000000
+      0.0000    112.4450      0.0000          0.000000    0.008893    0.000000
+      0.0000      0.0000    112.4450          0.000000    0.000000    0.008893
+
+ =>  Cartesian frame: x // a; y is in the ab-plane; z is x ^ y   
+
+     Crystal_to_Orthonormal_Matrix              Orthonormal_to_Crystal Matrix
+              Cr_Orth_cel                               Orth_Cr_cel  
+     10.6040      0.0000      0.0000          0.094304   -0.000000   -0.000000
+      0.0000     10.6040      0.0000          0.000000    0.094304   -0.000000
+      0.0000      0.0000     10.6040          0.000000    0.000000    0.094304
+
+     Busing-Levy B-matrix: Hc=B.H            Inverse of the Busing-Levy B-matrix
+                BL_M                                      BL_Minv  
+    0.094304    0.000000    0.000000           10.6040     -0.0000     -0.0000
+    0.000000    0.094304   -0.000000            0.0000     10.6040      0.0000
+    0.000000    0.000000    0.094304            0.0000      0.0000     10.6040
+
+ => Laue symmetry m-3   will be used to generate HKL for pattern#   1
+ => Reflections generated between S(1/d)min:  0.0353 A-1 and S(1/d)max:  1.2568 A-1
+ =>                                    dmax: 28.3647 A   and      dmin:  0.7957 A
+ => The number of reflections generated is:    208
+ => The max. scatt. variable (gen.ref.) is:       150.9808
+ => Scattering coefficients from internal table
+
+
+ => X-ray scattering coeff. (A1, B1, A2,...C, f(0), Z, Dfp,Dfpp)
+
+ Y      17.7760   1.4029  10.2946  12.8006   5.7263   0.1256   3.2659 104.3540   1.9121  38.9749  39.0000  -0.3860   2.0250
+ O       3.0485  13.2771   2.2868   5.7011   1.5463   0.3239   0.8670  32.9089   0.2508   7.9994   8.0000   0.0470   0.0320
+
+     --------------------------------------------------------------
+      SYMBOLIC NAMES AND INITIAL VALUES OF PARAMETERS TO BE VARIED:
+     --------------------------------------------------------------
+
+      ->  Parameter number    1   -> Symbolic Name:       Scale_ph1_pat1    0.70811999E-04
+      ->  Parameter number    2   -> Symbolic Name:           SySin_pat1    0.60559999E-01
+      ->  Parameter number    3   -> Symbolic Name:            Zero_pat1   -0.43699998E-01
+      ->  Parameter number    4   -> Symbolic Name:           Bck_0_pat1     658.58899    
+      ->  Parameter number    5   -> Symbolic Name:           Bck_1_pat1    -36.221001    
+      ->  Parameter number    6   -> Symbolic Name:      Cell_A_ph1_pat1     10.604007    
+  
+ 
+ => No optimization for routine tasks
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ => CYCLE No.:    1
+ ---------------------------------------------------------------------------------------
+ => Phase  1 Name: O3 Y2                                                                 
+ ---------------------------------------------------------------------------------------
+ => New parameters, shifts, and standard deviations
+
+ Atom        x       dx      sx       y       dy      sy       z       dz      sz       B       dB      sB      occ.    docc.   socc.
+
+ Y1       0.25000 0.00000 0.00000  0.25000 0.00000 0.00000  0.25000 0.00000 0.00000  0.00000 0.00000 0.00000  0.16667 0.00000 0.00000
+ Y2       0.96730 0.00000 0.00000  0.00000 0.00000 0.00000  0.25000 0.00000 0.00000  0.00000 0.00000 0.00000  0.50000 0.00000 0.00000
+ O1       0.39150 0.00000 0.00000  0.15380 0.00000 0.00000  0.38000 0.00000 0.00000  0.00000 0.00000 0.00000  1.00000 0.00000 0.00000
+
+ Atom         B11      DB11      SB11       B22      DB22      SB22       B33      DB33      SB33
+              B12      DB12      SB12       B13      DB13      SB13       B23      DB23      SB23
+ Y1      0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+         0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+ Y2      0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+         0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+ O1      0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+         0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+
+ ==> PROFILE PARAMETERS FOR PATTERN#  1
+
+ => Overall scale factor:      0.000070896     0.000000084     0.000000663
+ => Eta(p-Voigt) or m(Pearson VII):   0.000000  0.000000  0.000000
+ => Overall tem. factor:     0.000000    0.000000    0.000000
+ => Halfwidth parameters: 
+         0.004133    0.000000    0.000000
+        -0.007618    0.000000    0.000000
+         0.006255    0.000000    0.000000
+ => Cell parameters: 
+       10.603913   -0.000093    0.000166
+       10.603913   -0.000093    0.000166
+       10.603913   -0.000093    0.000166
+       90.000000    0.000000    0.000000
+       90.000000    0.000000    0.000000
+       90.000000    0.000000    0.000000
+ => Preferred orientation: 
+         1.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Asymmetry parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => X and Y parameters: 
+         0.018961    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Strain parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Size   parameters (G,L): 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Further shape parameters (S_L and D_L): 
+       0.000000  0.000000  0.000000
+       0.000000  0.000000  0.000000
+
+ ==> GLOBAL PARAMETERS FOR PATTERN#  1
+
+
+ => Zero-point:    -0.0435    0.0002    0.0021
+ => Background Polynomial Parameters ==>
+       658.59     0.45043E-02  6.5462    
+      -36.238    -0.16940E-01  8.6095    
+       0.0000      0.0000      0.0000    
+       0.0000      0.0000      0.0000    
+       0.0000      0.0000      0.0000    
+       0.0000      0.0000      0.0000    
+
+ => Cos( theta)-shift parameter :   0.0000  0.0000  0.0000
+ => Sin(2theta)-shift parameter :   0.0593 -0.0012  0.0048
+
+ ==> RELIABILITY FACTORS WITH ALL NON-EXCLUDED POINTS FOR PATTERN:  1
+
+ => R-Factors:   20.2      27.8     Chi2:  92.9     DW-Stat.:  0.3101   Patt#:  1
+ => Expected :            2.88                                1.9048
+ => Deviance : 0.637E+06     Dev*:   159.5    
+ => GoF-index:  9.6         Sqrt(Residual/N)
+ => N-P+C:  3993
+
+ =>    SumYdif       SumYobs      SumYcal      SumwYobsSQ     Residual    Condition
+     0.9671E+06    0.4798E+07    0.4425E+07    0.4798E+07    0.3709E+06    0.4447E+17
+
+
+ => Conventional Rietveld Rp,Rwp,Re and Chi2:   43.2      43.3      4.49      92.89    
+ => (Values obtained using Ynet, but true sigma(y))
+ =>  SumYnet, Sum(w Ynet**2):     0.2237E+07    0.1977E+07
+
+
+ ==> RELIABILITY FACTORS FOR POINTS WITH BRAGG CONTRIBUTIONS FOR PATTERN:  1
+
+ => R-Factors:   22.1      29.9     Chi2:  133.     DW-Stat.:  0.3196   Patt#:
+ => Expected :            2.59                                1.8849
+ => Deviance : 0.627E+06     Dev*:   232.1    
+ => GoF-index:  12.         Sqrt(Residual/N)
+ => N-P+C:  2699
+
+ =>    SumYdif       SumYobs      SumYcal      SumwYobsSQ     Residual    Condition
+     0.8865E+06    0.4016E+07    0.3582E+07    0.4016E+07    0.3599E+06    0.4447E+17
+
+
+ => Conventional Rietveld Rp,Rwp,Re and Chi2:   38.6      42.8      3.71      133.4    
+ => (Values obtained using Ynet, but true sigma(y))
+ =>  SumYnet, Sum(w Ynet**2):     0.2298E+07    0.1966E+07
+
+
+ => Global user-weigthed Chi2 (Bragg contrib.):   137.    
+
+ => ---------> Pattern#  1
+ => Phase:  1
+ =>    Bragg R-factor:  22.4    
+ =>    RF-factor     :  10.4    
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ => CYCLE No.:    2
+ ---------------------------------------------------------------------------------------
+ => Phase  1 Name: O3 Y2                                                                 
+ ---------------------------------------------------------------------------------------
+ => New parameters, shifts, and standard deviations
+
+ Atom        x       dx      sx       y       dy      sy       z       dz      sz       B       dB      sB      occ.    docc.   socc.
+
+ Y1       0.25000 0.00000 0.00000  0.25000 0.00000 0.00000  0.25000 0.00000 0.00000  0.00000 0.00000 0.00000  0.16667 0.00000 0.00000
+ Y2       0.96730 0.00000 0.00000  0.00000 0.00000 0.00000  0.25000 0.00000 0.00000  0.00000 0.00000 0.00000  0.50000 0.00000 0.00000
+ O1       0.39150 0.00000 0.00000  0.15380 0.00000 0.00000  0.38000 0.00000 0.00000  0.00000 0.00000 0.00000  1.00000 0.00000 0.00000
+
+ Atom         B11      DB11      SB11       B22      DB22      SB22       B33      DB33      SB33
+              B12      DB12      SB12       B13      DB13      SB13       B23      DB23      SB23
+ Y1      0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+         0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+ Y2      0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+         0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+ O1      0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+         0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+
+ ==> PROFILE PARAMETERS FOR PATTERN#  1
+
+ => Overall scale factor:      0.000070905     0.000000009     0.000000663
+ => Eta(p-Voigt) or m(Pearson VII):   0.000000  0.000000  0.000000
+ => Overall tem. factor:     0.000000    0.000000    0.000000
+ => Halfwidth parameters: 
+         0.004133    0.000000    0.000000
+        -0.007618    0.000000    0.000000
+         0.006255    0.000000    0.000000
+ => Cell parameters: 
+       10.603841   -0.000072    0.000165
+       10.603841   -0.000072    0.000165
+       10.603841   -0.000072    0.000165
+       90.000000    0.000000    0.000000
+       90.000000    0.000000    0.000000
+       90.000000    0.000000    0.000000
+ => Preferred orientation: 
+         1.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Asymmetry parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => X and Y parameters: 
+         0.018961    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Strain parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Size   parameters (G,L): 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Further shape parameters (S_L and D_L): 
+       0.000000  0.000000  0.000000
+       0.000000  0.000000  0.000000
+
+ ==> GLOBAL PARAMETERS FOR PATTERN#  1
+
+
+ => Zero-point:    -0.0434    0.0001    0.0021
+ => Background Polynomial Parameters ==>
+       658.59    -0.31998E-03  6.5432    
+      -36.250    -0.11597E-01  8.6057    
+       0.0000      0.0000      0.0000    
+       0.0000      0.0000      0.0000    
+       0.0000      0.0000      0.0000    
+       0.0000      0.0000      0.0000    
+
+ => Cos( theta)-shift parameter :   0.0000  0.0000  0.0000
+ => Sin(2theta)-shift parameter :   0.0583 -0.0010  0.0048
+
+ ==> RELIABILITY FACTORS WITH ALL NON-EXCLUDED POINTS FOR PATTERN:  1
+
+ => R-Factors:   20.2      27.8     Chi2:  92.8     DW-Stat.:  0.3115   Patt#:  1
+ => Expected :            2.88                                1.9048
+ => Deviance : 0.635E+06     Dev*:   159.0    
+ => GoF-index:  9.6         Sqrt(Residual/N)
+ => N-P+C:  3993
+
+ =>    SumYdif       SumYobs      SumYcal      SumwYobsSQ     Residual    Condition
+     0.9673E+06    0.4798E+07    0.4428E+07    0.4798E+07    0.3706E+06    0.4457E+17
+
+
+ => Conventional Rietveld Rp,Rwp,Re and Chi2:   43.2      43.3      4.49      92.80    
+ => (Values obtained using Ynet, but true sigma(y))
+ =>  SumYnet, Sum(w Ynet**2):     0.2237E+07    0.1977E+07
+
+
+ ==> RELIABILITY FACTORS FOR POINTS WITH BRAGG CONTRIBUTIONS FOR PATTERN:  1
+
+ => R-Factors:   22.1      29.9     Chi2:  133.     DW-Stat.:  0.3210   Patt#:
+ => Expected :            2.59                                1.8849
+ => Deviance : 0.625E+06     Dev*:   231.5    
+ => GoF-index:  12.         Sqrt(Residual/N)
+ => N-P+C:  2699
+
+ =>    SumYdif       SumYobs      SumYcal      SumwYobsSQ     Residual    Condition
+     0.8867E+06    0.4016E+07    0.3584E+07    0.4016E+07    0.3596E+06    0.4457E+17
+
+
+ => Conventional Rietveld Rp,Rwp,Re and Chi2:   38.6      42.8      3.71      133.2    
+ => (Values obtained using Ynet, but true sigma(y))
+ =>  SumYnet, Sum(w Ynet**2):     0.2298E+07    0.1966E+07
+
+
+ => Global user-weigthed Chi2 (Bragg contrib.):   137.    
+
+ => ---------> Pattern#  1
+ => Phase:  1
+ =>    Bragg R-factor:  22.3    
+ =>    RF-factor     :  10.4    
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ => CYCLE No.:    3
+ ---------------------------------------------------------------------------------------
+ => Phase  1 Name: O3 Y2                                                                 
+ ---------------------------------------------------------------------------------------
+ => New parameters, shifts, and standard deviations
+
+ Atom        x       dx      sx       y       dy      sy       z       dz      sz       B       dB      sB      occ.    docc.   socc.
+
+ Y1       0.25000 0.00000 0.00000  0.25000 0.00000 0.00000  0.25000 0.00000 0.00000  0.00000 0.00000 0.00000  0.16667 0.00000 0.00000
+ Y2       0.96730 0.00000 0.00000  0.00000 0.00000 0.00000  0.25000 0.00000 0.00000  0.00000 0.00000 0.00000  0.50000 0.00000 0.00000
+ O1       0.39150 0.00000 0.00000  0.15380 0.00000 0.00000  0.38000 0.00000 0.00000  0.00000 0.00000 0.00000  1.00000 0.00000 0.00000
+
+ Atom         B11      DB11      SB11       B22      DB22      SB22       B33      DB33      SB33
+              B12      DB12      SB12       B13      DB13      SB13       B23      DB23      SB23
+ Y1      0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+         0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+ Y2      0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+         0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+ O1      0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+         0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+
+ ==> PROFILE PARAMETERS FOR PATTERN#  1
+
+ => Overall scale factor:      0.000070909     0.000000004     0.000000662
+ => Eta(p-Voigt) or m(Pearson VII):   0.000000  0.000000  0.000000
+ => Overall tem. factor:     0.000000    0.000000    0.000000
+ => Halfwidth parameters: 
+         0.004133    0.000000    0.000000
+        -0.007618    0.000000    0.000000
+         0.006255    0.000000    0.000000
+ => Cell parameters: 
+       10.603783   -0.000058    0.000165
+       10.603783   -0.000058    0.000165
+       10.603783   -0.000058    0.000165
+       90.000000    0.000000    0.000000
+       90.000000    0.000000    0.000000
+       90.000000    0.000000    0.000000
+ => Preferred orientation: 
+         1.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Asymmetry parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => X and Y parameters: 
+         0.018961    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Strain parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Size   parameters (G,L): 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Further shape parameters (S_L and D_L): 
+       0.000000  0.000000  0.000000
+       0.000000  0.000000  0.000000
+
+ ==> GLOBAL PARAMETERS FOR PATTERN#  1
+
+
+ => Zero-point:    -0.0433    0.0001    0.0021
+ => Background Polynomial Parameters ==>
+       658.59     0.65697E-03  6.5414    
+      -36.257    -0.72744E-02  8.6032    
+       0.0000      0.0000      0.0000    
+       0.0000      0.0000      0.0000    
+       0.0000      0.0000      0.0000    
+       0.0000      0.0000      0.0000    
+
+ => Cos( theta)-shift parameter :   0.0000  0.0000  0.0000
+ => Sin(2theta)-shift parameter :   0.0575 -0.0008  0.0048
+
+ ==> RELIABILITY FACTORS WITH ALL NON-EXCLUDED POINTS FOR PATTERN:  1
+
+ => R-Factors:   20.2      27.8     Chi2:  92.8     DW-Stat.:  0.3121   Patt#:  1
+ => Expected :            2.88                                1.9048
+ => Deviance : 0.634E+06     Dev*:   158.8    
+ => GoF-index:  9.6         Sqrt(Residual/N)
+ => N-P+C:  3993
+
+ =>    SumYdif       SumYobs      SumYcal      SumwYobsSQ     Residual    Condition
+     0.9673E+06    0.4798E+07    0.4428E+07    0.4798E+07    0.3704E+06    0.4457E+17
+
+
+ => Conventional Rietveld Rp,Rwp,Re and Chi2:   43.2      43.3      4.49      92.75    
+ => (Values obtained using Ynet, but true sigma(y))
+ =>  SumYnet, Sum(w Ynet**2):     0.2237E+07    0.1977E+07
+
+
+ ==> RELIABILITY FACTORS FOR POINTS WITH BRAGG CONTRIBUTIONS FOR PATTERN:  1
+
+ => R-Factors:   22.1      29.9     Chi2:  133.     DW-Stat.:  0.3216   Patt#:
+ => Expected :            2.59                                1.8849
+ => Deviance : 0.624E+06     Dev*:   231.1    
+ => GoF-index:  12.         Sqrt(Residual/N)
+ => N-P+C:  2699
+
+ =>    SumYdif       SumYobs      SumYcal      SumwYobsSQ     Residual    Condition
+     0.8867E+06    0.4016E+07    0.3584E+07    0.4016E+07    0.3594E+06    0.4457E+17
+
+
+ => Conventional Rietveld Rp,Rwp,Re and Chi2:   38.6      42.8      3.71      133.2    
+ => (Values obtained using Ynet, but true sigma(y))
+ =>  SumYnet, Sum(w Ynet**2):     0.2298E+07    0.1966E+07
+
+
+ => Global user-weigthed Chi2 (Bragg contrib.):   137.    
+
+ => ---------> Pattern#  1
+ => Phase:  1
+ =>    Bragg R-factor:  22.3    
+ =>    RF-factor     :  10.4    
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ => CYCLE No.:    4
+ ---------------------------------------------------------------------------------------
+ => Phase  1 Name: O3 Y2                                                                 
+ ---------------------------------------------------------------------------------------
+ => New parameters, shifts, and standard deviations
+
+ Atom        x       dx      sx       y       dy      sy       z       dz      sz       B       dB      sB      occ.    docc.   socc.
+
+ Y1       0.25000 0.00000 0.00000  0.25000 0.00000 0.00000  0.25000 0.00000 0.00000  0.00000 0.00000 0.00000  0.16667 0.00000 0.00000
+ Y2       0.96730 0.00000 0.00000  0.00000 0.00000 0.00000  0.25000 0.00000 0.00000  0.00000 0.00000 0.00000  0.50000 0.00000 0.00000
+ O1       0.39150 0.00000 0.00000  0.15380 0.00000 0.00000  0.38000 0.00000 0.00000  0.00000 0.00000 0.00000  1.00000 0.00000 0.00000
+
+ Atom         B11      DB11      SB11       B22      DB22      SB22       B33      DB33      SB33
+              B12      DB12      SB12       B13      DB13      SB13       B23      DB23      SB23
+ Y1      0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+         0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+ Y2      0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+         0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+ O1      0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+         0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+
+ ==> PROFILE PARAMETERS FOR PATTERN#  1
+
+ => Overall scale factor:      0.000070913     0.000000004     0.000000662
+ => Eta(p-Voigt) or m(Pearson VII):   0.000000  0.000000  0.000000
+ => Overall tem. factor:     0.000000    0.000000    0.000000
+ => Halfwidth parameters: 
+         0.004133    0.000000    0.000000
+        -0.007618    0.000000    0.000000
+         0.006255    0.000000    0.000000
+ => Cell parameters: 
+       10.603739   -0.000044    0.000165
+       10.603739   -0.000044    0.000165
+       10.603739   -0.000044    0.000165
+       90.000000    0.000000    0.000000
+       90.000000    0.000000    0.000000
+       90.000000    0.000000    0.000000
+ => Preferred orientation: 
+         1.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Asymmetry parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => X and Y parameters: 
+         0.018961    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Strain parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Size   parameters (G,L): 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Further shape parameters (S_L and D_L): 
+       0.000000  0.000000  0.000000
+       0.000000  0.000000  0.000000
+
+ ==> GLOBAL PARAMETERS FOR PATTERN#  1
+
+
+ => Zero-point:    -0.0433    0.0001    0.0021
+ => Background Polynomial Parameters ==>
+       658.59     0.51576E-03  6.5400    
+      -36.262    -0.49818E-02  8.6014    
+       0.0000      0.0000      0.0000    
+       0.0000      0.0000      0.0000    
+       0.0000      0.0000      0.0000    
+       0.0000      0.0000      0.0000    
+
+ => Cos( theta)-shift parameter :   0.0000  0.0000  0.0000
+ => Sin(2theta)-shift parameter :   0.0569 -0.0006  0.0048
+
+ ==> RELIABILITY FACTORS WITH ALL NON-EXCLUDED POINTS FOR PATTERN:  1
+
+ => R-Factors:   20.2      27.8     Chi2:  92.7     DW-Stat.:  0.3125   Patt#:  1
+ => Expected :            2.88                                1.9048
+ => Deviance : 0.633E+06     Dev*:   158.6    
+ => GoF-index:  9.6         Sqrt(Residual/N)
+ => N-P+C:  3993
+
+ =>    SumYdif       SumYobs      SumYcal      SumwYobsSQ     Residual    Condition
+     0.9672E+06    0.4798E+07    0.4428E+07    0.4798E+07    0.3702E+06    0.4457E+17
+
+
+ => Conventional Rietveld Rp,Rwp,Re and Chi2:   43.2      43.3      4.49      92.71    
+ => (Values obtained using Ynet, but true sigma(y))
+ =>  SumYnet, Sum(w Ynet**2):     0.2237E+07    0.1977E+07
+
+
+ ==> RELIABILITY FACTORS FOR POINTS WITH BRAGG CONTRIBUTIONS FOR PATTERN:  1
+
+ => R-Factors:   22.1      29.9     Chi2:  133.     DW-Stat.:  0.3220   Patt#:
+ => Expected :            2.59                                1.8849
+ => Deviance : 0.623E+06     Dev*:   230.8    
+ => GoF-index:  12.         Sqrt(Residual/N)
+ => N-P+C:  2699
+
+ =>    SumYdif       SumYobs      SumYcal      SumwYobsSQ     Residual    Condition
+     0.8866E+06    0.4016E+07    0.3584E+07    0.4016E+07    0.3592E+06    0.4457E+17
+
+
+ => Conventional Rietveld Rp,Rwp,Re and Chi2:   38.6      42.7      3.71      133.1    
+ => (Values obtained using Ynet, but true sigma(y))
+ =>  SumYnet, Sum(w Ynet**2):     0.2298E+07    0.1966E+07
+
+
+ => Global user-weigthed Chi2 (Bragg contrib.):   137.    
+
+ => ---------> Pattern#  1
+ => Phase:  1
+ =>    Bragg R-factor:  22.3    
+ =>    RF-factor     :  10.4    
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ => CYCLE No.:    5
+ ---------------------------------------------------------------------------------------
+ => Phase  1 Name: O3 Y2                                                                 
+ ---------------------------------------------------------------------------------------
+ => New parameters, shifts, and standard deviations
+
+ Atom        x       dx      sx       y       dy      sy       z       dz      sz       B       dB      sB      occ.    docc.   socc.
+
+ Y1       0.25000 0.00000 0.00000  0.25000 0.00000 0.00000  0.25000 0.00000 0.00000  0.00000 0.00000 0.00000  0.16667 0.00000 0.00000
+ Y2       0.96730 0.00000 0.00000  0.00000 0.00000 0.00000  0.25000 0.00000 0.00000  0.00000 0.00000 0.00000  0.50000 0.00000 0.00000
+ O1       0.39150 0.00000 0.00000  0.15380 0.00000 0.00000  0.38000 0.00000 0.00000  0.00000 0.00000 0.00000  1.00000 0.00000 0.00000
+
+ Atom         B11      DB11      SB11       B22      DB22      SB22       B33      DB33      SB33
+              B12      DB12      SB12       B13      DB13      SB13       B23      DB23      SB23
+ Y1      0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+         0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+ Y2      0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+         0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+ O1      0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+         0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+
+ ==> PROFILE PARAMETERS FOR PATTERN#  1
+
+ => Overall scale factor:      0.000070915     0.000000002     0.000000662
+ => Eta(p-Voigt) or m(Pearson VII):   0.000000  0.000000  0.000000
+ => Overall tem. factor:     0.000000    0.000000    0.000000
+ => Halfwidth parameters: 
+         0.004133    0.000000    0.000000
+        -0.007618    0.000000    0.000000
+         0.006255    0.000000    0.000000
+ => Cell parameters: 
+       10.603703   -0.000035    0.000165
+       10.603703   -0.000035    0.000165
+       10.603703   -0.000035    0.000165
+       90.000000    0.000000    0.000000
+       90.000000    0.000000    0.000000
+       90.000000    0.000000    0.000000
+ => Preferred orientation: 
+         1.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Asymmetry parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => X and Y parameters: 
+         0.018961    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Strain parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Size   parameters (G,L): 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Further shape parameters (S_L and D_L): 
+       0.000000  0.000000  0.000000
+       0.000000  0.000000  0.000000
+
+ ==> GLOBAL PARAMETERS FOR PATTERN#  1
+
+
+ => Zero-point:    -0.0432    0.0001    0.0021
+ => Background Polynomial Parameters ==>
+       658.60     0.11825E-02  6.5391    
+      -36.265    -0.32798E-02  8.6002    
+       0.0000      0.0000      0.0000    
+       0.0000      0.0000      0.0000    
+       0.0000      0.0000      0.0000    
+       0.0000      0.0000      0.0000    
+
+ => Cos( theta)-shift parameter :   0.0000  0.0000  0.0000
+ => Sin(2theta)-shift parameter :   0.0564 -0.0005  0.0048
+
+ ==> RELIABILITY FACTORS WITH ALL NON-EXCLUDED POINTS FOR PATTERN:  1
+
+ => R-Factors:   20.2      27.8     Chi2:  92.7     DW-Stat.:  0.3128   Patt#:  1
+ => Expected :            2.88                                1.9048
+ => Deviance : 0.633E+06     Dev*:   158.4    
+ => GoF-index:  9.6         Sqrt(Residual/N)
+ => N-P+C:  3993
+
+ =>    SumYdif       SumYobs      SumYcal      SumwYobsSQ     Residual    Condition
+     0.9672E+06    0.4798E+07    0.4428E+07    0.4798E+07    0.3701E+06    0.4457E+17
+
+
+ => Conventional Rietveld Rp,Rwp,Re and Chi2:   43.2      43.3      4.49      92.69    
+ => (Values obtained using Ynet, but true sigma(y))
+ =>  SumYnet, Sum(w Ynet**2):     0.2237E+07    0.1977E+07
+
+
+ ==> RELIABILITY FACTORS FOR POINTS WITH BRAGG CONTRIBUTIONS FOR PATTERN:  1
+
+ => R-Factors:   22.1      29.9     Chi2:  133.     DW-Stat.:  0.3224   Patt#:
+ => Expected :            2.59                                1.8849
+ => Deviance : 0.623E+06     Dev*:   230.6    
+ => GoF-index:  12.         Sqrt(Residual/N)
+ => N-P+C:  2699
+
+ =>    SumYdif       SumYobs      SumYcal      SumwYobsSQ     Residual    Condition
+     0.8866E+06    0.4016E+07    0.3584E+07    0.4016E+07    0.3591E+06    0.4457E+17
+
+
+ => Conventional Rietveld Rp,Rwp,Re and Chi2:   38.6      42.7      3.71      133.1    
+ => (Values obtained using Ynet, but true sigma(y))
+ =>  SumYnet, Sum(w Ynet**2):     0.2298E+07    0.1966E+07
+
+
+ => Global user-weigthed Chi2 (Bragg contrib.):   137.    
+
+ => ---------> Pattern#  1
+ => Phase:  1
+ =>    Bragg R-factor:  22.3    
+ =>    RF-factor     :  10.4    
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ => CYCLE No.:    6
+ ---------------------------------------------------------------------------------------
+ => Phase  1 Name: O3 Y2                                                                 
+ ---------------------------------------------------------------------------------------
+ => New parameters, shifts, and standard deviations
+
+ Atom        x       dx      sx       y       dy      sy       z       dz      sz       B       dB      sB      occ.    docc.   socc.
+
+ Y1       0.25000 0.00000 0.00000  0.25000 0.00000 0.00000  0.25000 0.00000 0.00000  0.00000 0.00000 0.00000  0.16667 0.00000 0.00000
+ Y2       0.96730 0.00000 0.00000  0.00000 0.00000 0.00000  0.25000 0.00000 0.00000  0.00000 0.00000 0.00000  0.50000 0.00000 0.00000
+ O1       0.39150 0.00000 0.00000  0.15380 0.00000 0.00000  0.38000 0.00000 0.00000  0.00000 0.00000 0.00000  1.00000 0.00000 0.00000
+
+ Atom         B11      DB11      SB11       B22      DB22      SB22       B33      DB33      SB33
+              B12      DB12      SB12       B13      DB13      SB13       B23      DB23      SB23
+ Y1      0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+         0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+ Y2      0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+         0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+ O1      0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+         0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+
+ ==> PROFILE PARAMETERS FOR PATTERN#  1
+
+ => Overall scale factor:      0.000070917     0.000000002     0.000000662
+ => Eta(p-Voigt) or m(Pearson VII):   0.000000  0.000000  0.000000
+ => Overall tem. factor:     0.000000    0.000000    0.000000
+ => Halfwidth parameters: 
+         0.004133    0.000000    0.000000
+        -0.007618    0.000000    0.000000
+         0.006255    0.000000    0.000000
+ => Cell parameters: 
+       10.603676   -0.000028    0.000165
+       10.603676   -0.000028    0.000165
+       10.603676   -0.000028    0.000165
+       90.000000    0.000000    0.000000
+       90.000000    0.000000    0.000000
+       90.000000    0.000000    0.000000
+ => Preferred orientation: 
+         1.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Asymmetry parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => X and Y parameters: 
+         0.018961    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Strain parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Size   parameters (G,L): 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Further shape parameters (S_L and D_L): 
+       0.000000  0.000000  0.000000
+       0.000000  0.000000  0.000000
+
+ ==> GLOBAL PARAMETERS FOR PATTERN#  1
+
+
+ => Zero-point:    -0.0431    0.0001    0.0021
+ => Background Polynomial Parameters ==>
+       658.60     0.10314E-02  6.5384    
+      -36.268    -0.25612E-02  8.5994    
+       0.0000      0.0000      0.0000    
+       0.0000      0.0000      0.0000    
+       0.0000      0.0000      0.0000    
+       0.0000      0.0000      0.0000    
+
+ => Cos( theta)-shift parameter :   0.0000  0.0000  0.0000
+ => Sin(2theta)-shift parameter :   0.0560 -0.0004  0.0048
+
+ ==> RELIABILITY FACTORS WITH ALL NON-EXCLUDED POINTS FOR PATTERN:  1
+
+ => R-Factors:   20.2      27.8     Chi2:  92.7     DW-Stat.:  0.3131   Patt#:  1
+ => Expected :            2.88                                1.9048
+ => Deviance : 0.632E+06     Dev*:   158.3    
+ => GoF-index:  9.6         Sqrt(Residual/N)
+ => N-P+C:  3993
+
+ =>    SumYdif       SumYobs      SumYcal      SumwYobsSQ     Residual    Condition
+     0.9672E+06    0.4798E+07    0.4428E+07    0.4798E+07    0.3700E+06    0.4457E+17
+
+
+ => Conventional Rietveld Rp,Rwp,Re and Chi2:   43.2      43.3      4.49      92.67    
+ => (Values obtained using Ynet, but true sigma(y))
+ =>  SumYnet, Sum(w Ynet**2):     0.2237E+07    0.1977E+07
+
+
+ ==> RELIABILITY FACTORS FOR POINTS WITH BRAGG CONTRIBUTIONS FOR PATTERN:  1
+
+ => R-Factors:   22.1      29.9     Chi2:  133.     DW-Stat.:  0.3227   Patt#:
+ => Expected :            2.59                                1.8849
+ => Deviance : 0.622E+06     Dev*:   230.4    
+ => GoF-index:  12.         Sqrt(Residual/N)
+ => N-P+C:  2699
+
+ =>    SumYdif       SumYobs      SumYcal      SumwYobsSQ     Residual    Condition
+     0.8867E+06    0.4016E+07    0.3585E+07    0.4016E+07    0.3591E+06    0.4457E+17
+
+
+ => Conventional Rietveld Rp,Rwp,Re and Chi2:   38.6      42.7      3.71      133.0    
+ => (Values obtained using Ynet, but true sigma(y))
+ =>  SumYnet, Sum(w Ynet**2):     0.2298E+07    0.1966E+07
+
+
+ => Global user-weigthed Chi2 (Bragg contrib.):   137.    
+
+ => ---------> Pattern#  1
+ => Phase:  1
+ =>    Bragg R-factor:  22.3    
+ =>    RF-factor     :  10.4    
+
+
+   Standard deviations have to be multiplied by: 3.2379
+   (correlated residuals) See references:
+  -J.F.Berar & P.Lelann, J. Appl. Cryst. 24, 1-5 (1991) 
+  -J.F.Berar, Acc. in Pow. Diff. II,NIST Sp.Pub. 846, 63(1992) 
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ => CYCLE No.:    6
+ =>  Convergence reached at this CYCLE !!!!
+ =>  Parameter shifts set to zero
+ ---------------------------------------------------------------------------------------
+ => Phase  1 Name: O3 Y2                                                                 
+ ---------------------------------------------------------------------------------------
+ => New parameters, shifts, and standard deviations
+
+ Atom        x       dx      sx       y       dy      sy       z       dz      sz       B       dB      sB      occ.    docc.   socc.
+
+ Y1       0.25000 0.00000 0.00000  0.25000 0.00000 0.00000  0.25000 0.00000 0.00000  0.00000 0.00000 0.00000  0.16667 0.00000 0.00000
+ Y2       0.96730 0.00000 0.00000  0.00000 0.00000 0.00000  0.25000 0.00000 0.00000  0.00000 0.00000 0.00000  0.50000 0.00000 0.00000
+ O1       0.39150 0.00000 0.00000  0.15380 0.00000 0.00000  0.38000 0.00000 0.00000  0.00000 0.00000 0.00000  1.00000 0.00000 0.00000
+
+ Atom         B11      DB11      SB11       B22      DB22      SB22       B33      DB33      SB33
+              B12      DB12      SB12       B13      DB13      SB13       B23      DB23      SB23
+ Y1      0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+         0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+
+    U-Eigen Value (A**2) ----      Eigen vector(Orth. syst.)
+        0.00000          ----    0.93753   -0.21290    0.27515
+        0.00000          ----    0.15653    0.96445    0.21291
+        0.00000          ----   -0.31070   -0.15653    0.93753
+
+    Isotropic temperature factor Uequiv(A**2):   0.0000
+    Isotropic temperature factor Bequiv(A**2):   0.0000
+
+     R.M.S. in ANGSTROMS ------       Angles with A, B, C
+        0.00000          ----     20.359    102.293     74.029
+        0.00000          ----     80.994     15.323     77.707
+        0.00000          ----    108.101     99.006     20.359
+ 
+ Y2      0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+         0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+
+    U-Eigen Value (A**2) ----      Eigen vector(Orth. syst.)
+        0.00000          ----    0.93753   -0.21290    0.27515
+        0.00000          ----    0.15653    0.96445    0.21291
+        0.00000          ----   -0.31070   -0.15653    0.93753
+
+    Isotropic temperature factor Uequiv(A**2):   0.0000
+    Isotropic temperature factor Bequiv(A**2):   0.0000
+
+     R.M.S. in ANGSTROMS ------       Angles with A, B, C
+        0.00000          ----     20.359    102.293     74.029
+        0.00000          ----     80.994     15.323     77.707
+        0.00000          ----    108.101     99.006     20.359
+ 
+ O1      0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+         0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000
+
+    U-Eigen Value (A**2) ----      Eigen vector(Orth. syst.)
+        0.00000          ----    0.93753   -0.21290    0.27515
+        0.00000          ----    0.15653    0.96445    0.21291
+        0.00000          ----   -0.31070   -0.15653    0.93753
+
+    Isotropic temperature factor Uequiv(A**2):   0.0000
+    Isotropic temperature factor Bequiv(A**2):   0.0000
+
+     R.M.S. in ANGSTROMS ------       Angles with A, B, C
+        0.00000          ----     20.359    102.293     74.029
+        0.00000          ----     80.994     15.323     77.707
+        0.00000          ----    108.101     99.006     20.359
+ 
+
+ ==> PROFILE PARAMETERS FOR PATTERN#  1
+
+ => Overall scale factor:      0.000070917     0.000000000     0.000000662
+ => Eta(p-Voigt) or m(Pearson VII):   0.000000  0.000000  0.000000
+ => Overall tem. factor:     0.000000    0.000000    0.000000
+ => Halfwidth parameters: 
+         0.004133    0.000000    0.000000
+        -0.007618    0.000000    0.000000
+         0.006255    0.000000    0.000000
+ => Cell parameters: 
+       10.603676    0.000000    0.000165
+       10.603676    0.000000    0.000165
+       10.603676    0.000000    0.000165
+       90.000000    0.000000    0.000000
+       90.000000    0.000000    0.000000
+       90.000000    0.000000    0.000000
+ => Preferred orientation: 
+         1.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Asymmetry parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => X and Y parameters: 
+         0.018961    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Strain parameters: 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Size   parameters (G,L): 
+         0.000000    0.000000    0.000000
+         0.000000    0.000000    0.000000
+ => Further shape parameters (S_L and D_L): 
+       0.000000  0.000000  0.000000
+       0.000000  0.000000  0.000000
+
+ ==> GLOBAL PARAMETERS FOR PATTERN#  1
+
+
+ => Zero-point:    -0.0431    0.0000    0.0021
+ => Background Polynomial Parameters ==>
+       658.60      0.0000      6.5384    
+      -36.268      0.0000      8.5994    
+       0.0000      0.0000      0.0000    
+       0.0000      0.0000      0.0000    
+       0.0000      0.0000      0.0000    
+       0.0000      0.0000      0.0000    
+
+ => Cos( theta)-shift parameter :   0.0000  0.0000  0.0000
+ => Sin(2theta)-shift parameter :   0.0560  0.0000  0.0048
+
+ ==> RELIABILITY FACTORS WITH ALL NON-EXCLUDED POINTS FOR PATTERN:  1
+
+ => R-Factors:   20.2      27.8     Chi2:  92.7     DW-Stat.:  0.3131   Patt#:  1
+ => Expected :            2.88                                1.9048
+ => Deviance : 0.632E+06     Dev*:   158.3    
+ => GoF-index:  9.6         Sqrt(Residual/N)
+ => N-P+C:  3993
+
+ =>    SumYdif       SumYobs      SumYcal      SumwYobsSQ     Residual    Condition
+     0.9672E+06    0.4798E+07    0.4428E+07    0.4798E+07    0.3700E+06    0.4457E+17
+
+
+ => Conventional Rietveld Rp,Rwp,Re and Chi2:   43.2      43.3      4.49      92.67    
+ => (Values obtained using Ynet, but true sigma(y))
+ =>  SumYnet, Sum(w Ynet**2):     0.2237E+07    0.1977E+07
+
+ => N-sigma of the GoF: 4095.927
+
+ ==> RELIABILITY FACTORS FOR POINTS WITH BRAGG CONTRIBUTIONS FOR PATTERN:  1
+
+ => R-Factors:   22.1      29.9     Chi2:  133.     DW-Stat.:  0.3227   Patt#:
+ => Expected :            2.59                                1.8849
+ => Deviance : 0.622E+06     Dev*:   230.4    
+ => GoF-index:  12.         Sqrt(Residual/N)
+ => N-P+C:  2699
+
+ =>    SumYdif       SumYobs      SumYcal      SumwYobsSQ     Residual    Condition
+     0.8867E+06    0.4016E+07    0.3585E+07    0.4016E+07    0.3591E+06    0.4457E+17
+
+
+ => Conventional Rietveld Rp,Rwp,Re and Chi2:   38.6      42.7      3.71      133.0    
+ => (Values obtained using Ynet, but true sigma(y))
+ =>  SumYnet, Sum(w Ynet**2):     0.2298E+07    0.1966E+07
+
+ => N-sigma of the GoF:     4850.243
+
+ => Global user-weigthed Chi2 (Bragg contrib.):   137.    
+
+ => ---------> Pattern#  1
+ => Phase:  1
+ =>    Bragg R-factor:  22.3    
+ =>    RF-factor     :  10.4    
+
+ --------------------------------------------------------------------------------------------------------------
+ Pattern#  1 Phase No:   1 Phase name: O3 Y2                         
+ --------------------------------------------------------------------------------------------------------------
+
+   No.  Code     H   K   L  Mult     Hw         2theta      Icalc       Iobs      Sigma      HwG     HwL       ETA       d-hkl        CORR
+
+      1   1      2   1   1    24  0.072636      20.499      814.2     1115.3    411.287  0.070800  0.003429  0.063428  4.328944    692.702454
+      2   1      2   2   0    12  0.071686      23.713        1.4        0.0      1.359  0.069554  0.003981  0.074404  3.748975    256.023682
+      3   1      2   2   2     8  0.070120      29.149     7194.2     9737.1   3428.979  0.067481  0.004930  0.093723  3.061025    110.577728
+      4   1      2   3   1    24  0.069448      31.543       27.5        0.0      2.150  0.066581  0.005355  0.102551  2.833959    280.363647
+      5   1      3   2   1    24  0.069448      31.543        6.8        0.0      0.531  0.066581  0.005355  0.102551  2.833959    280.363647
+      6   1      4   0   0     6  0.068830      33.784     1853.0     2282.8    527.247  0.065748  0.005758  0.111000  2.650926     60.477783
+      7   1      4   1   1    24  0.068257      35.901      369.1      425.2     64.435  0.064968  0.006143  0.119151  2.499317    212.108246
+      8   1      2   4   0    12  0.067721      37.915       31.2       18.1      7.639  0.064233  0.006513  0.127062  2.371060     94.163918
+      9   1      4   2   0    12  0.067721      37.915       53.5       31.1     13.082  0.064233  0.006513  0.127062  2.371060     94.163918
+     10   1      3   3   2    24  0.067219      39.842      438.9      541.7    126.223  0.063537  0.006872  0.134778  2.260717    168.938553
+     11   1      4   2   2    24  0.066746      41.694       70.4       30.4     17.423  0.062876  0.007220  0.142331  2.164472    152.843567
+     12   1      3   4   1    24  0.066299      43.481      353.1      431.4     95.215  0.062245  0.007561  0.149747  2.079557    139.283691
+     13   1      4   3   1    24  0.066299      43.481      287.7      351.5     77.574  0.062245  0.007561  0.149747  2.079557    139.283691
+     14   1      2   5   1    24  0.065476      46.891      117.2      123.2      6.598  0.061062  0.008223  0.164253  1.935962    117.744370
+     15   1      5   2   1    24  0.065476      46.891       98.3      103.3      5.534  0.061062  0.008223  0.164253  1.935962    117.744370
+     16   1      4   4   0    12  0.065097      48.526     3191.0     4253.6   1406.682  0.060506  0.008547  0.171373  1.874488     54.534531
+     17   1      4   3   3    24  0.064737      50.121      167.0      185.4     20.432  0.059971  0.008866  0.178420  1.818520    101.462616
+     18   1      4   4   2    24  0.064396      51.679        4.7        0.0      0.361  0.059456  0.009182  0.185404  1.767284     94.747650
+     19   1      6   0   0     6  0.064396      51.679       30.7        0.0      2.337  0.059456  0.009182  0.185404  1.767284     23.685553
+     20   1      3   5   2    24  0.064073      53.205       65.9       76.5     12.143  0.058961  0.009496  0.192334  1.720148     88.784264
+     21   1      5   3   2    24  0.064073      53.205       74.0       85.8     13.619  0.058961  0.009496  0.192334  1.720148     88.784264
+     22   1      6   1   1    24  0.064073      53.205      267.7      310.4     49.288  0.058961  0.009496  0.192334  1.720148     88.784264
+     23   1      2   6   0    12  0.063768      54.701       55.1       39.5     11.209  0.058484  0.009808  0.199214  1.676593     41.730236
+     24   1      6   2   0    12  0.063768      54.701       34.3       24.6      6.978  0.058484  0.009808  0.199214  1.676593     41.730236
+     25   1      4   5   1    24  0.063480      56.170      184.7      219.3     40.903  0.058024  0.010118  0.206051  1.636187     78.685661
+     26   1      5   4   1    24  0.063480      56.170      138.1      164.1     30.594  0.058024  0.010118  0.206051  1.636187     78.685661
+     27   1      6   2   2    24  0.063210      57.613     2198.8     2837.4    817.083  0.057581  0.010427  0.212849  1.598568     74.385834
+     28   1      3   6   1    24  0.062956      59.035      243.0      301.5     71.943  0.057155  0.010735  0.219611  1.563431     70.499779
+     29   1      6   3   1    24  0.062956      59.035      227.3      282.1     67.308  0.057155  0.010735  0.219611  1.563431     70.499779
+     30   1      4   4   4     8  0.062719      60.435      375.7      444.5     80.826  0.056746  0.011043  0.226338  1.530513     22.325510
+     31   1      4   5   3    24  0.062498      61.816       58.2       56.7      1.834  0.056353  0.011351  0.233034  1.499590     63.773354
+     32   1      5   4   3    24  0.062498      61.816      100.6       98.0      3.170  0.056353  0.011351  0.233034  1.499590     63.773354
+     33   1      4   6   0    12  0.062295      63.179       85.9       60.8     17.792  0.055975  0.011660  0.239698  1.470469     30.427063
+     34   1      6   4   0    12  0.062295      63.179       15.3       10.9      3.177  0.055975  0.011660  0.239698  1.470469     30.427063
+     35   1      2   7   1    24  0.062110      64.527       66.3       68.5      2.477  0.055614  0.011970  0.246331  1.442981     58.188023
+     36   1      5   5   2    24  0.062110      64.527        4.0        4.2      0.151  0.055614  0.011970  0.246331  1.442981     58.188023
+     37   1      6   3   3    24  0.062110      64.527       81.5       84.3      3.044  0.055614  0.011970  0.246331  1.442981     58.188023
+     38   1      7   2   1    24  0.062110      64.527      110.4      114.2      4.127  0.055614  0.011970  0.246331  1.442981     58.188023
+     39   1      4   6   2    24  0.061942      65.859       16.2       13.2      2.420  0.055270  0.012280  0.252933  1.416979     55.748756
+     40   1      6   4   2    24  0.061942      65.859      104.7       85.6     15.654  0.055270  0.012280  0.252933  1.416979     55.748756
+     41   1      3   7   2    24  0.061548      69.778        0.5        0.5      0.010  0.054337  0.013222  0.272537  1.346672     49.580124
+     42   1      6   5   1    24  0.061548      69.778       74.5       73.6      1.682  0.054337  0.013222  0.272537  1.346672     49.580124
+     43   1      7   3   2    24  0.061548      69.778        1.1        1.1      0.025  0.054337  0.013222  0.272537  1.346672     49.580124
+     44   1      5   6   1    24  0.061548      69.778       86.3       85.3      1.950  0.054337  0.013222  0.272537  1.346672     49.580132
+     45   1      8   0   0     6  0.061455      71.062      344.9      401.5     65.245  0.054061  0.013540  0.278998  1.325463     11.961758
+     46   1      7   4   1    24  0.061382      72.335       49.8       56.2      7.217  0.053803  0.013861  0.285416  1.305226     46.259052
+     47   1      4   7   1    24  0.061382      72.335       61.0       68.9      8.836  0.053803  0.013861  0.285416  1.305226     46.259041
+     48   1      5   5   4    24  0.061382      72.335       47.9       54.1      6.945  0.053803  0.013861  0.285416  1.305226     46.259041
+     49   1      8   1   1    24  0.061382      72.335      132.9      150.1     19.263  0.053803  0.013861  0.285416  1.305226     46.259041
+     50   1      2   8   0    12  0.061331      73.600       44.8       42.1      2.719  0.053563  0.014185  0.291789  1.285888     22.398249
+     51   1      6   4   4    24  0.061331      73.600       38.9       36.5      2.360  0.053563  0.014185  0.291789  1.285888     44.796497
+     52   1      8   2   0    12  0.061331      73.600       72.7       68.2      4.408  0.053563  0.014185  0.291789  1.285888     22.398249
+     53   1      5   6   3    24  0.061301      74.857       86.1       86.0      1.550  0.053343  0.014512  0.298111  1.267385     43.452011
+     54   1      6   5   3    24  0.061301      74.857       89.3       89.3      1.608  0.053343  0.014512  0.298111  1.267385     43.452011
+     55   1      6   6   0    12  0.061295      76.106        1.2        1.0      0.154  0.053144  0.014842  0.304378  1.249658     21.108334
+     56   1      8   2   2    24  0.061295      76.106      108.1       91.1     14.402  0.053144  0.014842  0.304378  1.249658     42.216667
+     57   1      3   8   1    24  0.061312      77.349       76.1       84.6      9.354  0.052965  0.015177  0.310585  1.232656     41.082542
+     58   1      4   7   3    24  0.061312      77.349       51.9       57.7      6.385  0.052965  0.015177  0.310585  1.232656     41.082542
+     59   1      7   4   3    24  0.061312      77.349       52.8       58.7      6.488  0.052965  0.015177  0.310585  1.232656     41.082542
+     60   1      8   3   1    24  0.061312      77.349       93.3      103.7     11.474  0.052965  0.015177  0.310585  1.232656     41.082542
+
+   No.  Code     H   K   L  Mult     Hw         2theta      Icalc       Iobs      Sigma      HwG     HwL       ETA       d-hkl        CORR
+
+     61   1      6   6   2    24  0.061354      78.586      613.7      726.4    131.724  0.052808  0.015515  0.316726  1.216328     40.042606
+     62   1      5   7   2    24  0.061423      79.817        1.1        0.0      0.442  0.052675  0.015859  0.322795  1.200633     39.090569
+     63   1      7   5   2    24  0.061423      79.817        5.3        0.0      2.086  0.052675  0.015859  0.322795  1.200633     39.090569
+     64   1      4   8   0    12  0.061519      81.043      205.9      232.2     29.351  0.052565  0.016207  0.328784  1.185530     19.110435
+     65   1      8   4   0    12  0.061519      81.043      205.6      231.9     29.308  0.052565  0.016207  0.328784  1.185530     19.110435
+     66   1      8   3   3    24  0.061644      82.266       82.1       63.2     14.621  0.052481  0.016560  0.334686  1.170983     37.428528
+     67   1      4   8   2    24  0.061799      83.484       52.2       40.3      9.164  0.052423  0.016919  0.340495  1.156959     36.709084
+     68   1      8   4   2    24  0.061799      83.484       42.4       32.8      7.452  0.052423  0.016919  0.340495  1.156959     36.709084
+     69   1      2   9   1    24  0.061986      84.700        3.0        3.0      0.056  0.052393  0.017284  0.346201  1.143427     36.058578
+     70   1      6   5   5    24  0.061986      84.700      104.2      103.2      1.958  0.052393  0.017284  0.346201  1.143427     36.058578
+     71   1      6   7   1    24  0.061986      84.700       47.4       47.0      0.892  0.052393  0.017284  0.346201  1.143427     36.058578
+     72   1      7   6   1    24  0.061986      84.700       34.0       33.7      0.639  0.052393  0.017284  0.346201  1.143427     36.058578
+     73   1      9   2   1    24  0.061986      84.700        7.4        7.3      0.138  0.052393  0.017284  0.346201  1.143427     36.058578
+     74   1      6   6   4    24  0.062206      85.914       16.0        0.0      2.551  0.052392  0.017655  0.351796  1.130359     35.473457
+     75   1      5   7   4    24  0.062463      87.125       53.4       54.3      1.260  0.052423  0.018033  0.357272  1.117728     34.950584
+     76   1      5   8   1    24  0.062463      87.125       66.5       67.7      1.572  0.052423  0.018033  0.357272  1.117728     34.950584
+     77   1      7   5   4    24  0.062463      87.125       35.7       36.3      0.842  0.052423  0.018033  0.357272  1.117728     34.950584
+     78   1      8   5   1    24  0.062463      87.125       46.6       47.4      1.101  0.052423  0.018033  0.357272  1.117728     34.950584
+     79   1      3   9   2    24  0.063089      89.545       10.0       10.6      0.640  0.052585  0.018811  0.367829  1.093688     34.080650
+     80   1      6   7   3    24  0.063089      89.545       87.5       92.7      5.600  0.052585  0.018811  0.367829  1.093688     34.080650
+     81   1      7   6   3    24  0.063089      89.545      103.8      110.0      6.643  0.052585  0.018811  0.367829  1.093688     34.080650
+     82   1      9   3   2    24  0.063089      89.545       11.9       12.6      0.760  0.052585  0.018811  0.367829  1.093688     34.080650
+     83   1      8   4   4    24  0.063464      90.755      452.3      533.0     93.753  0.052719  0.019212  0.372890  1.082236     33.728912
+     84   1      4   9   1    24  0.063883      91.964       21.1       23.1      2.184  0.052893  0.019623  0.377795  1.071136     33.430016
+     85   1      5   8   3    24  0.063883      91.964       60.6       66.4      6.282  0.052893  0.019623  0.377795  1.071136     33.430016
+     86   1      8   5   3    24  0.063883      91.964       94.6      103.6      9.804  0.052893  0.019623  0.377795  1.071136     33.430016
+     87   1      9   4   1    24  0.063883      91.964       37.8       41.4      3.923  0.052893  0.019623  0.377795  1.071136     33.430016
+     88   1      6   8   0    12  0.064348      93.175       10.2        9.0      1.097  0.053107  0.020042  0.382533  1.060370     16.591148
+     89   1      8   6   0    12  0.064348      93.175       96.9       85.2     10.398  0.053107  0.020042  0.382533  1.060370     16.591148
+     90   1     10   0   0     6  0.064348      93.175       32.2       28.3      3.452  0.053107  0.020042  0.382533  1.060370      8.295098
+     91   1      7   7   2    24  0.064863      94.387       31.3       24.9      5.195  0.053365  0.020471  0.387095  1.049923     32.984329
+     92   1     10   1   1    24  0.064863      94.387       36.4       28.9      6.035  0.053365  0.020471  0.387095  1.049923     32.984329
+     93   1      2  10   0    12  0.065430      95.601       54.1       54.7      1.112  0.053669  0.020912  0.391470  1.039779     16.417450
+     94   1      6   8   2    24  0.065430      95.601      181.4      183.5      3.729  0.053669  0.020911  0.391470  1.039779     32.834900
+     95   1      8   6   2    24  0.065430      95.601       18.3       18.6      0.377  0.053669  0.020911  0.391470  1.039779     32.834900
+     96   1     10   2   0    12  0.065430      95.601       65.6       66.4      1.349  0.053669  0.020912  0.391470  1.039779     16.417450
+     97   1      4   9   3    24  0.066053      96.818       51.7       44.1      6.640  0.054022  0.021363  0.395650  1.029923     32.733040
+     98   1      9   4   3    24  0.066053      96.818       28.4       24.2      3.652  0.054022  0.021363  0.395650  1.029923     32.733040
+     99   1      6   6   6     8  0.066734      98.037       74.7       83.9     10.249  0.054427  0.021827  0.399626  1.020342     10.892652
+    100   1     10   2   2    24  0.066734      98.037      342.9      385.0     47.012  0.054427  0.021827  0.399626  1.020342     32.677956
+    101   1      5   9   2    24  0.067478      99.261       20.9       22.1      1.222  0.054887  0.022303  0.403387  1.011023     32.669086
+    102   1      9   5   2    24  0.067478      99.261       27.9       29.4      1.630  0.054887  0.022303  0.403387  1.011023     32.669086
+    103   1      3  10   1    24  0.067478      99.261       49.6       52.3      2.897  0.054887  0.022303  0.403387  1.011023     32.669090
+    104   1      6   7   5    24  0.067478      99.261       65.4       69.0      3.819  0.054887  0.022303  0.403387  1.011023     32.669090
+    105   1      7   6   5    24  0.067478      99.261       74.7       78.8      4.362  0.054887  0.022303  0.403387  1.011023     32.669090
+    106   1     10   3   1    24  0.067478      99.261       49.8       52.5      2.907  0.054887  0.022303  0.403387  1.011023     32.669090
+
+     -----------------------------------------------------
+     BRAGG R-Factors and weight fractions for Pattern #  1
+     -----------------------------------------------------
+
+ => Phase:  1     O3 Y2
+ => Bragg R-factor:   22.3       Vol: 1192.255( 0.032)  Fract(%):  100.00( 1.32)
+ => Rf-factor=  10.4             ATZ:        3613.046   Brindley:  1.0000
+
+     -----------------------------------------------------------------
+      SYMBOLIC NAMES AND FINAL VALUES AND SIGMA OF REFINED PARAMETERS:
+     -----------------------------------------------------------------
+
+      ->  Parameter number    1 :       Scale_ph1_pat1    0.70917369E-04( +/-    0.66208742E-06 )
+      ->  Parameter number    2 :           SySin_pat1    0.55958364E-01( +/-    0.48026177E-02 )
+      ->  Parameter number    3 :            Zero_pat1   -0.43140441E-01( +/-    0.20694972E-02 )
+      ->  Parameter number    4 :           Bck_0_pat1     658.59656    ( +/-     6.5384445     )
+      ->  Parameter number    5 :           Bck_1_pat1    -36.267635    ( +/-     8.5993958     )
+      ->  Parameter number    6 :      Cell_A_ph1_pat1     10.603676    ( +/-    0.16518957E-03 )
+
+ ------------------------------------------------------------------
+ => Number of bytes for floating point variables: 4
+ => Dimensions of dynamic allocated arrays in this run of FullProf:
+ ------------------------------------------------------------------
+
+ => Total approximate array memory (dynamic + static): 127111993 bytes
+
+    MaxPOINT=    60000 Max.num. of points(+int. Inten.)/diffraction pattern       
+    MaxREFLT=    20000 Max.num. of reflections/diffraction pattern               
+    MaxPARAM=      300 Max.num. of refinable parameters                          
+    MaxOVERL=    18096 Max.num. of overlapping reflections                       
+
+ ----------------------------------------------------------
+ => Number of bytes for floating point arrays: 4
+ => Dimensions of fixed arrays in this release of FullProf:
+ ----------------------------------------------------------
+
+    NPATT   =       80 Max.num. of powder diffraction patterns                    
+    NATS    =      830 Max.num. of atoms (all kind) in asymmetric unit            
+    MPAR    =     1800 Max.num. of non atomic parameters/phase                    
+    IEXCL   =       30 Max.num. of excluded regions                               
+    IBACP   =      277 Max.num. of background points for interpolation            
+    NPHT    =       16 Max.num. of phases                                         
+    NMAGM   =        8 Max.num. of rotation-matrices sets for magnetic structure  
+    NBASIS  =       12 Max.num. of basis functions associated to a single atom    
+    NIREPS  =        9 Max.num. of irreducible representations to be combined     
+    N_EQ    =      384 Max.num. of user-supplied symmetry operators/propagation vectors
+    NGL     =      300 Max.num. of global parameters/diffraction pattern          
+    N_LINC  =       30 Max.num. of global linear restraints                        
+    NAT_P   =       64 Max.num. of atomic parameters per atom                     
+    NCONST  =      500 Max.num. of slack constraints per phase                    
+    N_SPE   =       16 Max.num. of different chemical species                     
+    N_FORM  =       60 Max.num. of scattering factor values in a table            
+    NPR     =      150 Max.num. of points defining a numerical profile            
+    INPR    =       25 Max.num. of different numerical peak shapes                
+    NPRC    =      150 Max.num. of terms in the table for correcting intensities  
+    NSOL    =       10 Max.num. of solutions to be stored in Montecarlo searchs   
+
+ 
+              CPU Time:     0.930 seconds
+                            0.015 minutes
+
+ => Run finished at:     Date: 10/06/2024  Time: 18:44:52.481                              
