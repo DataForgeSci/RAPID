@@ -70,7 +70,8 @@ This repository provides scripts and batch files for **Rietveld Refinement**, **
    - [AutoFP-1.3.5 Folder](#autofp-135-folder)  
 9. [Contents of the `data` Folder](#9-contents-of-the-data-folder)  
 10. [PyTorch Installation & Dependencies](#10-pytorch-installation--dependencies)
-11. [Credits](#11-Credits)
+11. [License](#11-License)
+12. [Credits](#12-Credits)
 
 
 
@@ -795,7 +796,11 @@ Inside each timestamped subfolder:
 _For details, refer to **Installation Setup Guide.md**._
 
   
-## 11. Credits
+## 11. License
+RAPID is open‑source software distributed under the GNU General Public License version 3 (GPLv3) licence. It is free to use, modify and redistribute under the terms of the GPLv3.
+
+ 
+## 12. Credits
 * Suk Jin Mun (SukjinMun) - Main author (1.0.0)
 * Yoonsoo Nam (1.0.0)
 * Sungkyun Choi (1.0.0)
