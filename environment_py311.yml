@@ -1,0 +1,18 @@
+name: rapid_py311
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - pip:
+    # Default: CUDA 12.8. For other CUDA versions, change cu128 to cu118, cu121, or cu124.
+    # See https://pytorch.org/get-started/locally/ for details.
+    - --extra-index-url https://download.pytorch.org/whl/cu128
+    - torch
+    - torchvision
+    - torchaudio
+    - shap
+    - sobol-seq

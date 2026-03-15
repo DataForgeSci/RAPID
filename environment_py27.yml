@@ -1,0 +1,14 @@
+name: rapid_py27
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=2.7
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - pip:
+    - sobol-seq
+# Note: PyQt4 must be installed manually from a wheel file.
+# See INSTALLATION_SETUP_GUIDE.md for instructions.
