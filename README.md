@@ -15,12 +15,31 @@
 
 </div>
 
+[![DOI](https://img.shields.io/badge/DOI-10.1107%2FS1600576726001494-blue)](https://doi.org/10.1107/S1600576726001494)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 ![Python](https://img.shields.io/badge/python-2.7%20%7C%203.11-blue)
 
 # `RAPID` — Rietveld Analysis Pipeline with Intelligent Deep-learning
 
 RAPID automates Rietveld refinement of powder X-ray diffraction (XRD) data using convolutional neural networks. A CNN predicts crystallographic and profile parameters from a diffraction pattern in a single forward pass (~2 ms), then initializes automated FullProf refinement. The three-stage pipeline covers data augmentation, CNN training, and automated refinement.
+
+Please cite the following [paper](https://doi.org/10.1107/S1600576726001494) if you use this code in your research:
+
+```
+@article{Mun:yr5164,
+    author = "Mun, Suk Jin and Nam, Yoonsoo and Choi, Sungkyun",
+    title = "{Automation of Rietveld refinement through machine learning}",
+    journal = "Journal of Applied Crystallography",
+    year = "2026",
+    volume = "59",
+    number = "2",
+    pages = "",
+    month = "Apr",
+    doi = {10.1107/S1600576726001494},
+    url = {https://doi.org/10.1107/S1600576726001494},
+}
+```
+
 ## Requirements
 
 This code requires Python 2.7 (for AutoFP/FullProf refinement), Python 3.11 with PyTorch, NumPy, SciPy, and matplotlib (for CNN training and inference), and the [FullProf Suite](https://www.ill.eu/sites/fullprof/). Windows only.
